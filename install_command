@@ -1,0 +1,8 @@
+python -m pip install --upgrade pip
+pip3 install pandas
+pip3 install django
+pip install google-cloud-vision
+pip install selenium
+pip install requests
+
+

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+	<head>
+		<title>자살유해정보 단속지원체계</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="{% static 'style.css' %}">
+		<style>
+			@import url(//fonts.googleapis.com/earlyaccess/hanna.css);
+			.hn{font-family: 'Hanna', sans-serif;}
+			div { text-align: center; background-color:"#7f8f9f";}
+			
+			
+			form{
+				margin:auto;
+				position:absolute;
+				top: 75%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				/* border: 1px solid #000; */
+				width : 800px;
+				padding: 25px;
+				border-radius: 5px;
+				background-color: #f5f5f5;
+				box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+			}
+			
+			input {
+				width : 100%;
+				box-sizing: border-box;
+				padding: 15px;
+				padding-left: 30px;
+				border-radius: 5px;
+				border: 1px solid rgba(0, 0, 0, 0.233);
+				margin-top:-10px;
+			}
+			
+			input:hover{
+				border: 1px solid dodgerblue;
+				box-shadow: 0 0 5px dodgerblue;
+			}
+			
+			input:focus::placeholder{
+				color:transparent;
+			}
+			
+			button {
+				width:20%;
+				font-size: 24px;
+				padding: 10px;
+				border-radius: 5px;
+				background-color: #2991b1;
+				border : none;
+				color : #fff;
+				margin-top: 30px;
+			}
+			
+			button:hover{
+				cursor: pointer;
+				background-color: #2c778e;
+			}
+			
+			a:link {
+			  color : #B2B2B2;
+			  text-decoration: none;
+			}
+		</style>
+	</head>
+	
+	
+	<body>
+		<main class="page-container">
+		
+			<div>
+			<h2 align="center" style="margin:auto;position:absolute;top: 20%;left: 50%;transform: translate(-50%, -50%);">Illegal Content Monitoring System</h1>
+				<img src="{% static 'image/eagle.png' %}" style="margin:auto;position:absolute;top: 35%;left: 50%;transform: translate(-50%, -50%);"width="400"><br/>
+				<img src="{% static 'image/MIS.jpg' %}" style="margin:auto;position:absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);"width="150">
+				
+				
+				
+				<form method="post" id="authForm" action="{% url 'check' %}">
+				
+				{% csrf_token %}
+					<div class="login_info">	
+						<input type="id" id="loginId" name="loginId" placeholder="ID" >
+						<br/></br/><br/>
+						<input type="password" id="loginPw" name="password" placeholder="Password" >
+						
+						<div style="text-align: left">
+							<button class="hn" type="submit"><font size="3em">로그인</font></button>
+							<a href="join" style="color:#808080; font-family: 'Hanna', sans-serif;"><font size="3em">신규 담당관 이신가요? - 회원가입</font></a>
+						</div>
+					
+					</div>
+				</form>
+			</div>
+		</main>
+		
+	</body>
+</html>
+
+
+
+
+
+
