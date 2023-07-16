@@ -66,12 +66,25 @@
 			}
 		</style>
 	</head>
-	
-	
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/core.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/sha256.js"></script>
+	<script>
+		function mySubmit(obj) {
+			var f = document.forms[0]; // 첫번째 폼
+			f.loginPw.value = CryptoJS.SHA256(f.loginPw.value);
+			
+		}
+
+		
+	</script>
 	<body>
+		
 		<main class="page-container">
 		
 			<div>
+			
+			
 			<h2 align="center" style="margin:auto;position:absolute;top: 20%;left: 50%;transform: translate(-50%, -50%);">Illegal Content Monitoring System</h1>
 				<img src="{% static 'image/eagle.png' %}" style="margin:auto;position:absolute;top: 35%;left: 50%;transform: translate(-50%, -50%);"width="400"><br/>
 				<img src="{% static 'image/MIS.jpg' %}" style="margin:auto;position:absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);"width="150">
@@ -84,16 +97,19 @@
 					<div class="login_info">	
 						<input type="id" id="loginId" name="loginId" placeholder="ID" >
 						<br/></br/><br/>
-						<input type="password" id="loginPw" name="password" placeholder="Password" >
+						<input type="password" id="loginPw" name="password" placeholder="Password">
 						
 						<div style="text-align: left">
-							<button class="hn" type="submit"><font size="3em">로그인</font></button>
+							<button class="hn" type="submit" onclick="mySubmit(this);"><font size="3em">로그인</font></button>
 							<a href="join" style="color:#808080; font-family: 'Hanna', sans-serif;"><font size="3em">신규 담당관 이신가요? - 회원가입</font></a>
 						</div>
-					
+						
+						
+						
 					</div>
 				</form>
 			</div>
+			
 		</main>
 		
 	</body>

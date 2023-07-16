@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+{% load static %}
+<!--
+Template Name: Nekmit
+Author: <a href="https://www.os-templates.com/">OS Templates</a>
+Author URI: https://www.os-templates.com/
+Copyright: OS-Templates.com
+Licence: Free to use under our free template licence terms
+Licence URI: https://www.os-templates.com/template-terms
+-->
+<html lang="kor">
+<!-- To declare your language - read more here: https://www.w3.org/International/questions/qa-html-language-declarations -->
+<head>
+<title>단속진행</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="{% static 'setting/layout/styles/layout.css' %}" rel="stylesheet" type="text/css" media="all">
+<style>
+.layerPopup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.8);
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+    margin: -30px 0 0 -30px;
+}
+.spinner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: 8px solid #f3f3f3; /* Light grey */
+    border-top: 8px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: spinner 2s linear infinite;
+}
+@keyframes spinner {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+</style>
+</head>
+
+<script>
+function showSpinner() {
+    document.getElementsByClassName('layerPopup')[0].style.display='block';
+}
+function hideSpinner() {
+    document.getElementsByClassName('layerPopup')[0].style.display='none';
+}
+</script>
+<body id="top">
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- Top Background Image Wrapper -->
+<div class="bgded overlay padtop" style="background-image:url({% static 'setting/images/demo/backgrounds/01.jpg' %};"> 
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <header id="header" class="hoc clear">
+    <div id="logo" class="fl_left"> 
+      <!-- ################################################################################################ -->
+      <h1><a href="../dashboard">Illegial Contents Monitoring</a></h1>
+      <!-- ################################################################################################ -->
+    </div>
+    <nav id="mainav" class="fl_right"> 
+      <!-- ################################################################################################ -->
+      <ul class="clear">
+        <li><a href="../dashboard/">Home</a></li>
+        
+      </ul>
+      <!-- ################################################################################################ -->
+    </nav>
+  </header>
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <div id="breadcrumb" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+    <!-- ################################################################################################ -->
+  </div>
+  <!-- ################################################################################################ -->
+</div>
+<!-- End Top Background Image Wrapper -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row3">
+  <main class="hoc container clear"> 
+    <!-- main body -->
+    <!-- ################################################################################################ -->
+    <div class="content"> 
+      <!-- ################################################################################################ -->
+      <h1>Searching illegal suicide contents</h1>
+	  </br><h2>Single URL check</h2>
+	  <p>Enter URL address information to check for harmful information and press the check button</p>
+		<div id="comments">
+			<form id="check_url" action="/check_urls/" method="post">
+  {% csrf_token %}
+  <div class="block clear">
+    <label for="comment">Input URL Address</label>
+    <textarea name="URL" id="URL" cols="25" rows="1"></textarea>
+  </div>
+  <div>
+    <input id="submitButton" type="submit" value="Submit Form"></input>
+    &nbsp;
+    <input type="reset" name="reset" value="Reset Form">
+  </div>
+</form>
+
+<div id="resultContainer"></div>
+
+<script>
+  document.getElementById("submitButton").addEventListener("click", function() {
+    var submitButton = document.getElementById("submitButton");
+    submitButton.style.display = "none";  // 버튼을 숨기는 CSS 스타일 적용
+
+    // FormData 객체를 사용하여 폼 데이터 생성
+    var formData = new FormData(document.getElementById("check_url"));
+	showSpinner()
+    // 서버로 Ajax 요청 보내기
+    fetch('/check_urls/', {
+      method: 'POST',
+      body: formData
+    })
+    .then(function(response) {
+      if (response.ok) {
+        return response.text();  // HTML 응답을 텍스트 형식으로 받음
+      } else {
+        throw new Error('Request failed');
+      }
+    })
+    .then(function(html) {
+      // 서버 응답을 받은 후 버튼 다시 표시
+      submitButton.style.display = "inline";  // 버튼을 다시 보이도록 설정
+		hideSpinner()
+      // HTML을 결과 컨테이너에 삽입
+      var resultContainer = document.getElementById("resultContainer");
+      resultContainer.innerHTML = html;
+
+      // 추가로 처리할 작업 수행
+    })
+    .catch(function(error) {
+      console.log('Request failed: ' + error);
+    });
+  });
+</script>
+
+
+		</div>
+      <!-- ################################################################################################ -->
+    </div>
+	  
+	<div class="content"> 
+      <!-- ################################################################################################ -->
+	  </br><h2>Check multi-word based content</h2>
+	  <p>Please enter the search keyword you want to crack down on. You can write each word separately by (comma).</br>
+		 ex) Suicide, drug sales,...</p>
+		<div id="comments">
+			<form action="/check_keywords/" method="post">
+			{% csrf_token %}
+			  <div class="block clear">
+				<label for="comment">Input Check Search keywords</label>
+				<textarea name="comment" id="comment" cols="25" rows="1"></textarea>
+			  </div>
+			  <div>
+				<input type="submit" name="submit" value="Submit Form">
+				&nbsp;
+				<input type="reset" name="reset" value="Reset Form">
+			  </div>
+			</form>
+			{% if url == None%}
+			<ul>
+			  <li>
+				<article>
+				  <header>
+					<address>
+					Analysis Result
+					</address>
+				  </header>
+				  <div class="comcont">
+					<p>reports : 유해성을 검증할 URL 정보를 입력후 check 해주세요.</p>
+				  </div>
+				</article>
+			  </li>
+			</ul>
+			
+			{% else %}
+			<ul>
+			  <li>
+				<article>
+				  <header>
+					<address>
+					Analysis Result
+					</address>
+				  </header>
+				  <div class="comcont">
+					<p>Image Analysis : 이미지 검사결과 {{reports.0}}점의 유해도가 평가되었습니다.</p>
+					<p>text Analysis : 핵심키워드에서 블랙리스트 키워드 검출결과 {{reports.2}}로 확인되었습니다.</p>
+					<p>Screen Shot : 자살유해 의심 이미지({{reports.1}})</p>
+					<p>Content Summary : {{reports.3}}...</p>
+				  </div>
+				</article>
+			  </li>
+			</ul>
+			{% endif %}
+		</div>
+      <!-- ################################################################################################ -->
+    </div>
+    <!-- ################################################################################################ -->
+    <!-- / main body -->
+    <div class="clear"></div>
+  </main>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row5">
+  <div id="copyright" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+    <p class="fl_left">Copyright &copy; 2018 - All Rights Reserved - <a href="#">Domain Name</a></p>
+    <p class="fl_right">Template by <a target="_blank" href="https://www.os-templates.com/" title="Free Website Templates">OS Templates</a></p>
+    <!-- ################################################################################################ -->
+  </div>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<a id="backtotop" href="#top"><i class="fas fa-chevron-up"></i></a>
+<!-- JAVASCRIPTS -->
+<script src="{% static 'setting/layout/scripts/jquery.min.js' %}"></script>
+<script src="{% static 'setting/layout/scripts/jquery.backtotop.js' %}"></script>
+<script src="{% static 'setting/layout/scripts/jquery.mobilemenu.js' %}"></script>
+</body>
+</html>

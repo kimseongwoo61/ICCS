@@ -1,13 +1,22 @@
 from django.db import models
+from django.contrib.auth.models import User
+from django.contrib import admin
+from django.contrib.auth.admin import UserAdmin
 
-# Create your models here.
-class User(models.Model):
-    user_id = models.CharField(max_length=32, unique=True, verbose_name='사용자 아이디')
-    user_pw = models.CharField(max_length=128, verbose_name='사용자 패스워드')
-    user_name = models.CharField(max_length=16, unique=True, verbose_name='사용자 이름')
-    user_email = models.CharField(max_length=128, unique=True, verbose_name='사용자 이메일')
-    user_register = models.DateTimeField(auto_now=True, verbose_name='계정 생성시간')
 
+class Token_info(models.Model):
+    user_id = models.OneToOneField(User, on_delete=models.CASCADE, primary_key=True, related_name='token_info')
+    
+    naver_searchID = models.CharField(max_length=128, unique=True, verbose_name='네이버 검색 client ID')
+    naver_searchAPI = models.CharField(max_length=128, unique=True, verbose_name='네이버 검색 API 토큰')
+    
+    naver_keywordID = models.CharField(max_length=128, unique=True, verbose_name='네이버 검색 client ID')
+    naver_keywordAPI = models.CharField(max_length=128, unique=True, verbose_name='네이버 검색 API 토큰')
+    
+    google_visionID = models.CharField(max_length=128, unique=True, verbose_name='구글 비전 clinet ID')
+    google_visionAPI = models.CharField(max_length=128, unique=True, verbose_name='구글 비전 API 토큰')
     
     class Meta:
-        db_table = 'user'
+        db_table = 'token'
+
+
