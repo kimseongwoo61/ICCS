@@ -55,7 +55,7 @@ def detect_safe_search(imageDir, jsonToken_dir):
         
 
 if __name__ == "__main__":
-    result, score = detect_safe_search("C:/Users/kimse/OneDrive/사진/Screenshots/스크린샷 2023-07-13 225848.png",
+    result = detect_safe_search("C:/Users/kimse/OneDrive/사진/Screenshots/스크린샷 2023-07-13 225848.png",
                                        "./icm-system-392403-eb6386028156.json")
     print(result)
-    print(score)
+    print(type(result))

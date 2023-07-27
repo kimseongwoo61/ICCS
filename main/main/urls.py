@@ -54,9 +54,9 @@ urlpatterns = [
     
     # ----------------------------------------------
     # 단일 URL 점검 페이지
-    path('check_urls/', sp.check_urls),
+    #path('check_urls/', sp.check_urls),
     
     # 다중 검색키워드 검증 페이지
-    path('check_keywords/', sp.check_keywords),
+    #path('check_keywords/', sp.check_keywords),
     
 ]

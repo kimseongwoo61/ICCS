@@ -66,78 +66,78 @@ Licence URI: https://www.os-templates.com/template-terms
 	  {% if data != None%}
       <div class="scrollable">
         <table>
-          <thead>
-		  
+        <thead>
             <tr>
-              <th>Info</th>
+              <th>information</th>
               <th>values</th>
             </tr>
           </thead>
           <tbody>
 			<tr>
-              <td>Name</td>
-			  <td>values</td>
+              <td>ID</td>
+			  <td>{{ user.username }}</td>
             </tr>
 			<tr>
-              <td>E-mail address</td>
-			  <td>{{data}}</td>
-            </tr>
-            <tr>
-              <td>ID</td>
+              <td>네이버 검색 API Client ID</td>
 			  <td>{{data.0}}</td>
             </tr>
-			<tr>
-              <td>Password</td>
-			  <td>*****</td>
-            </tr>
-			<tr>
-              <td>Naver search API token</td>
+            <tr>
+              <td>네이버 검색 API Client Token</td>
 			  <td>{{data.1}}</td>
             </tr>
 			<tr>
-              <td>Naver keyword API token</td>
+              <td>구글 검색 client ID</td>
 			  <td>{{data.2}}</td>
             </tr>
 			<tr>
-              <td>Google vision API token</td>
-			  <td>{{data.0}}</td>
+              <td>구글 검색 API 토큰</td>
+			  <td>{{data.3}}</td>
             </tr>
-          </tbody>
+			<tr>
+              <td>구글 비전 clinet ID</td>
+			  <td>{{data.4}}</td>
+            </tr>
+			<tr>
+              <td>구글 비전 API 토큰 암호정보</td>
+			  <td>{{data.5}}</td>
+            </tr>
+        </tbody>
         </table>
       </div>
 	  {% endif %}
 	  </br></br>
       <div id="comments">
         <h2>Change information</h2>
-		<p>If there are any information changes, please enter the item below and the confirmation button.</p>
+		<p>만약 단속작업을 위한 정보 중 변경사항이 있으면, 아래에 해당 정보를 입력한 뒤 확인버튼을 눌러주세요.</p>
         <form action="#" method="post">
           <div class="block clear">
-            <label for="name">Name <span>*</span></label>
+            <label for="name">네이버 검색 API Client ID <span>*</span></label>
             <input type="text" name="name" id="name" value="" size="22" required>
           </div>
 		  <div class="block clear">
-            <label for="name">E-mail address <span>*</span></label>
+            <label for="name">네이버 검색 API Client Token <span>*</span></label>
             <input type="text" name="name" id="name" value="" size="22" required>
           </div>
 		  <div class="block clear">
-            <label for="name">Password <span>*</span></label>
+            <label for="name">구글 검색 client ID <span>*</span></label>
             <input type="text" name="name" id="name" value="" size="22" required>
           </div>
 		  <div class="block clear">
-            <label for="name">Naver search API token <span>*</span></label>
+            <label for="name">구글 검색 API 토큰 <span>*</span></label>
             <input type="text" name="name" id="name" value="" size="22" required>
           </div>
 		  <div class="block clear">
-            <label for="name">Naver keyword API token <span>*</span></label>
+            <label for="name">구글 비전 clinet ID <span>*</span></label>
             <input type="text" name="name" id="name" value="" size="22" required>
           </div>
 		  <div class="block clear">
-            <label for="name">Google vision API token	 <span>*</span></label>
+            <label for="name">구글 비전 API 토큰 암호정보 <span>*</span></label>
             <input type="text" name="name" id="name" value="" size="22" required>
           </div>
+		  </br>
           <div>
             <input type="submit" name="submit" value="Submit Form">
-            &nbsp;
+			</br></br>
             <input type="reset" name="reset" value="Reset Form">
           </div>
         </form>

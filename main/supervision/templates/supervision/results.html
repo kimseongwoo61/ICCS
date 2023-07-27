@@ -1,0 +1,56 @@
+<div class="content"> 
+		{% if url == None%}
+		<ul>
+		  <li>
+			<article>
+			  <header>
+				<address>
+				Analysis Result
+				</address>
+			  </header>
+			  <div class="comcont">
+				<p>reports : 유해성을 검증할 URL 정보를 입력후 check 해주세요.</p>
+			  </div>
+			</article>
+		  </li>
+		</ul>
+		
+		{% elif url == False%}
+		<ul>
+		  <li>
+			<article>
+			  <header>
+				<address>
+				Analysis Result
+				</address>
+			  </header>
+			  <div class="comcont">
+				<p>reports : {{reports}}</p>
+			  </div>
+			</article>
+		  </li>
+		</ul>
+		
+		{% else %}
+		<ul>
+		  <li>
+			<article>
+			  <header>
+				<address>
+				Analysis Result
+				</address>
+			  </header>
+			  <div class="comcont">
+				<p>Page Title : {{reports.0}}</p>
+				<p>URL 주소 : {{reports.1}}</p>
+				<p>도메인 : {{reports.2}}</p>
+				<p>블랙리스트 키워드 : 페이지 텍스트 검사를 진행한 결과 블랙리스트 포함 유무는 {{reports.3}}입니다.</p>
+				<p>유해 이미지 검사 : 페이지 내부에서 {{reports.4}}개의 유해 의심 이미지가 발견되었습니다.</p>
+				<p>콘텐츠 내용 요약 : {{reports.5}}...</p>
+			  </div>
+			</article>
+		  </li>
+		</ul>
+		{% endif %}
+</div>
+ 

@@ -1,56 +1,78 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from PIL import Image, ImageFilter
+import subprocess
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+import subprocess
+from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.chrome.service import Service
 import os
 import urllib
 import time
+import signal
+import psutil
 
+def kill_processes_by_name(process_name):
+    for process in psutil.process_iter(['name']):
+        if process.info['name'] == process_name:
+            process.kill()
 
 
 # 웹 페이지로 부터 이미지 파일을 모두 추출한다.
 # input : 추출할 웹 주소(+http), 데이터 저장경로
 # output : 저장 경로에 이미지 파일이 저장됨 
 def extract_images_with_selenium(url, output_directory):
+
     
     # 웹드라이버 설정
-    options = webdriver.ChromeOptions()
-    options.add_argument("headless")
-    driver = webdriver.Chrome(options=options)
-    
-    
-    # 웹페이지 로드
-    driver.get(url)
-    
-    
-    # 일반적으로 대다수 SNS는 동적 웹페이지가 많기 때문에 로딩을 위해서 인위적으로 지연코드 삽입
-    time.sleep(5)
-    
-    
-    # 이미지 태그 추출
-    img_elements = driver.find_elements(By.TAG_NAME, 'img')
-
-    # 이미지 파일 추출 및 저장
-    for img_element in img_elements:
+    chrome = subprocess.Popen(r'C:\Program Files\Google\Chrome\Application\chrome.exe --remote-debugging-port=9223 --user-data-dir="C:\Users\kimse\AppData\Local\Google\Chrome\User Data\Default"')
+    try:
+        option = Options()
+        option.add_experimental_option("debuggerAddress", "127.0.0.1:9223")
+        driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=option)
+        driver.minimize_window()
         
-        # 이미지 URL 가져오기
-        img_url = img_element.get_attribute('src')
-
-        try:
-            # 이미지 다운로드
-            img_filename = os.path.basename(urllib.parse.urlsplit(img_url).path)
-            img_path = os.path.join(output_directory, img_filename + ".jpg")
-
-            urllib.request.urlretrieve(img_url, img_path)
-
-            print(f'Saved image: {img_filename}')
+        
+        # 웹페이지 로드
+        driver.get(url)
+        
+        
+        # 일반적으로 대다수 SNS는 동적 웹페이지가 많기 때문에 로딩을 위해서 인위적으로 지연코드 삽입
+        time.sleep(5)
+        
+        
+        # 이미지 태그 추출
+        img_elements = driver.find_elements(By.TAG_NAME, 'img')
+    
+        # 이미지 파일 추출 및 저장
+        for img_element in img_elements:
             
-
-        except Exception as e:
-            print(f'Error occurred while downloading image from {img_url}: {str(e)}')
-            
-
-    # 웹드라이버 종료
-    driver.quit()
+            # 이미지 URL 가져오기
+            img_url = img_element.get_attribute('src')
+    
+            try:
+                # 이미지 다운로드
+                img_filename = os.path.basename(urllib.parse.urlsplit(img_url).path)
+                img_path = output_directory + "/" + img_filename + ".jpg"
+                print(img_path)
+                urllib.request.urlretrieve(img_url, img_path)
+    
+                print(f'Saved image: {img_filename}')
+                
+    
+            except Exception as e:
+                print(f'Error occurred while downloading image from {img_url}: {str(e)}')
+                
+    
+        # 웹드라이버 종료
+        driver.quit()
+        chrome.kill()
+    
+    
+    except Exception as e:
+        chrome.kill()
+        print("imageProcessing extract_images_with_selenium --------- Error : " + str(e))
 
 
 

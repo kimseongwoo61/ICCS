@@ -33,8 +33,8 @@ def myinfo(request):
         token_info = user.token_info  # 역참조를 통해 Token_info 객체에 접근
         information.append(token_info.naver_searchID)
         information.append(token_info.naver_searchAPI)
-        information.append(token_info.naver_keywordID)
-        information.append(token_info.naver_keywordAPI)
+        information.append(token_info.google_searchID)
+        information.append(token_info.google_searchAPI)
         information.append(token_info.google_visionID)
         information.append(token_info.google_visionAPI)
     
