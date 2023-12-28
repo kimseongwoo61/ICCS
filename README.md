@@ -1,6 +1,8 @@
 # **Illegal Content Monitoring System**
 
-![Untitled](https://github.com/kimseongwoo61/ICCS/blob/main/iccs.png)
+<p align="center">
+  <img src="https://github.com/kimseongwoo61/ICCS/blob/main/스크린샷%202023-12-28%20230251.png" alt="Screenshot">
+</p>
 
 ## **Introduction**
 
