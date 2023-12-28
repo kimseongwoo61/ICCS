@@ -1,6 +1,6 @@
 # **Illegal Content Monitoring System**
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/13387632-ff1f-4d43-99b8-5781a6fd4412/03f43ddc-7774-4eff-b000-8a38783c116a/Untitled.png)
+![Untitled](https://github.com/kimseongwoo61/ICCS/blob/main/iccs.png)
 
 ## **Introduction**
 
