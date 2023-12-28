@@ -1,4 +1,4 @@
-# I**llegal Content Monitoring System**
+# **Illegal Content Monitoring System**
 
 ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/13387632-ff1f-4d43-99b8-5781a6fd4412/03f43ddc-7774-4eff-b000-8a38783c116a/Untitled.png)
 
@@ -26,7 +26,7 @@ To start the Illegal Content Monitoring System, follow these steps:
 1. **Clone the repository:**
     
     ```bash
-    git clone <https://github.com/kimseongwoo61/ICCS.git>
+    git clone https://github.com/kimseongwoo61/ICCS.git
     ```
     
 2. **Install external dependencies:**
@@ -38,7 +38,7 @@ To start the Illegal Content Monitoring System, follow these steps:
 3. **Run the Django server:**
     
     ```bash
-    cd main
+    cd ./main
     python manage.py runserver 8080
     ```
     
