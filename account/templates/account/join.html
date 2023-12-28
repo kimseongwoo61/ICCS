@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+	<head>
+		<title>회원가입</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="{% static 'style.css' %}">
+		<style>
+			@import url(//fonts.googleapis.com/earlyaccess/hanna.css);
+			.hn{font-family: 'Hanna', sans-serif;}
+			div { text-align: center; background-color:"#7f8f9f";}
+			
+			
+			form{
+				margin:auto;
+				position:absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				/* border: 1px solid #000; */
+				width : 800px;
+				padding: 25px;
+				border-radius: 5px;
+				background-color: #f5f5f5;
+				box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+			}
+			
+			input {
+				width : 100%;
+				box-sizing: border-box;
+				padding: 15px;
+				padding-left: 30px;
+				border-radius: 5px;
+				border: 1px solid rgba(0, 0, 0, 0.233);
+				margin-top:-10px;
+			}
+			
+			input:hover{
+				border: 1px solid dodgerblue;
+				box-shadow: 0 0 5px dodgerblue;
+			}
+			
+			input:focus::placeholder{
+				color:transparent;
+			}
+			
+			button {
+				width:20%;
+				font-size: 24px;
+				padding: 10px;
+				border-radius: 5px;
+				background-color: #2991b1;
+				border : none;
+				color : #fff;
+				margin-top: 30px;
+			}
+			
+			button:hover{
+				cursor: pointer;
+				background-color: #2c778e;
+			}
+			
+			a:link {
+			  color : #B2B2B2;
+			  text-decoration: none;
+			}
+		</style>
+	</head>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/core.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/sha256.js"></script>
+	<script>
+		function validateForm() {
+			var form = document.forms[0];
+			var id = form.loginId.value;
+			var pw = form.loginPw.value;
+			var email = form.user_mail.value;
+
+			// ID 유효성 검사
+			var idRegex = /^[a-zA-Z0-9_]{4,20}$/;
+			if (!id.match(idRegex)) {
+				alert("ID는 영어 대소문자, 숫자, _만 사용 가능하며 최소 4자 이상 20자 이하여야 합니다.");
+				return false;
+			}
+
+			// Password 유효성 검사
+			if (pw.length < 8) {
+				alert("Password는 최소 8자 이상이어야 합니다.");
+				return false;
+			}
+
+			// 추가 비밀번호 규칙 검사
+			var passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/;
+			if (!pw.match(passwordRegex)) {
+				alert("Password는 최소 8자 이상이어야 하며, 대문자, 소문자, 숫자, 특수문자를 각각 최소 1개 이상 포함해야 합니다.");
+				return false;
+			}
+
+			// Email 유효성 검사
+			var emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+			if (!email.match(emailRegex)) {
+				alert("유효한 이메일 주소를 입력해주세요.");
+				return false;
+			}
+
+			// Password 해싱
+			form.loginPw.value = CryptoJS.SHA256(pw);
+
+			return true;
+		}
+	</script>
+	<body>
+		<main class="page-container">
+			<div>
+				<h2 align="center" style="position:absolute;margin:auto;position:absolute;top: 15%;left: 50%;transform: translate(-50%, -50%);">Illegal Content Monitoring System(Join)</h2>
+
+				<form method="post" id="authForm" action="{% url 'check' %}" onsubmit="return validateForm();">
+				
+				{% csrf_token %}
+					<div class="login_info">	
+					{% if result == None %}
+					<h2>회원가입 정보를 입력해 주세요</h2>
+					
+					{% elif result == False %}
+					<h2>{{error|escape}}</h2>
+					
+					{% elif result == True %}
+					<script>
+						alert("회원가입에 성공하였습니다!");
+						window.location.replace("/");
+					</script>
+					{% endif %}
+					
+					
+					<br/>
+						<input type="hidden" name="check" value="join">
+						<input type="id" id="loginId" name="loginId" placeholder="ID - 영어 대소문자, 숫자, _ 사용 가능하며 최소 4자 이상 20자 이하여야 합니다.">
+						<br/></br/><br/>
+						<input type="password" id="loginPw" name="password" placeholder="Password - 최소 8자 이상, 영어 대소문자 및 특수문자 최소 1개이상 포함해야 합니다." >
+						<br/></br/><br/>
+						<input type="email" id="user_mail" name="user_mail" placeholder="Mail - employee@example.com 형식으로 입력해 주세요." >
+			
+						<div style="text-align: left">
+							<button class="hn" type="submit" onclick="mySubmit(this);"><font size="3em">회원가입</font></button>
+						</div>
+					
+					</div>
+				</form>
+			</div>
+			
+
+		</main>
+		
+	</body>
+</html>
+
+
+
+
+
+

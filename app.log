@@ -1,0 +1,3111 @@
+Watching for file changes with StatReloader
+C:\Users\kimse\OneDrive\바탕 화면\소개딩\ICMS\main\supervision\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\kimse\OneDrive\바탕 화면\소개딩\ICMS\main\supervision\src\search_naver.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\kimse\OneDrive\바탕 화면\소개딩\ICMS\main\supervision\src\search_google.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\kimse\OneDrive\바탕 화면\소개딩\ICMS\main\supervision\src\search_google.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\kimse\OneDrive\바탕 화면\소개딩\ICMS\main\supervision\src\search_google.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\kimse\OneDrive\바탕 화면\소개딩\ICMS\main\supervision\src\search_google.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\kimse\OneDrive\바탕 화면\소개딩\ICMS\main\supervision\src\search_google.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\kimse\OneDrive\바탕 화면\소개딩\ICMS\main\supervision\src\search_google.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\kimse\OneDrive\바탕 화면\소개딩\ICMS\main\supervision\src\search_google.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\kimse\OneDrive\바탕 화면\소개딩\ICMS\main\supervision\src\search_google.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /check_keywords/ HTTP/1.1" 302 0
+[*] login_first - START
+"GET /?next=/check_keywords/ HTTP/1.1" 200 3212
+"GET /static/image/kisa.png HTTP/1.1" 304 0
+"GET /monitor/ HTTP/1.1" 302 0
+[*] login_first - START
+"GET /?next=/monitor/ HTTP/1.1" 200 3212
+[*] check - START
+"POST /check/ HTTP/1.1" 302 0
+"GET /dashboard HTTP/1.1" 301 0
+"GET /dashboard/ HTTP/1.1" 200 2420
+"GET /monitor/ HTTP/1.1" 200 11047
+"GET /static/setting/images/demo/backgrounds/01.jpg; HTTP/1.1" 404 1878
+[*] check_keywords - START
+[*] search_naver - START
+[!] check_keywords - ERROR : 'float' object cannot be interpreted as an integer
+"POST /check_keywords/ HTTP/1.1" 200 331
+C:\Users\kimse\OneDrive\바탕 화면\소개딩\ICMS\main\supervision\src\search_google.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\kimse\OneDrive\바탕 화면\소개딩\ICMS\main\supervision\src\search_naver.py changed, reloading.
+Watching for file changes with StatReloader
+[*] check_keywords - START
+[*] search_naver - START
+[*] extract_domain - START
+[*] extract_domain - FINISH
+[*] extract_domain - START
+[*] extract_domain - FINISH
+[*] extract_domain - START
+[*] extract_domain - FINISH
+[*] extract_domain - START
+[*] extract_domain - FINISH
+[*] extract_domain - START
+[*] extract_domain - FINISH
+[*] extract_domain - START
+[*] extract_domain - FINISH
+[*] extract_domain - START
+[*] extract_domain - FINISH
+[*] extract_domain - START
+[*] extract_domain - FINISH
+[*] extract_domain - START
+[*] extract_domain - FINISH
+[*] extract_domain - START
+[*] extract_domain - FINISH
+[*] search_naver - FINISH
+[*] gen_xlsx - START
+[*] gen_xlsx - FINISH
+[*] search_naver - START
+[*] extract_domain - START
+[*] extract_domain - FINISH
+[*] extract_domain - START
+[*] extract_domain - FINISH
+[*] extract_domain - START
+[*] extract_domain - FINISH
+[*] extract_domain - START
+[*] extract_domain - FINISH
+[*] extract_domain - START
+[*] extract_domain - FINISH
+[*] extract_domain - START
+[*] extract_domain - FINISH
+[*] extract_domain - START
+[*] extract_domain - FINISH
+[*] extract_domain - START
+[*] extract_domain - FINISH
+[*] extract_domain - START
+[*] extract_domain - FINISH
+[*] extract_domain - START
+[*] extract_domain - FINISH
+[*] search_naver - FINISH
+[*] gen_xlsx - START
+[*] gen_xlsx - FINISH
+[?] 검색결과 수집 완료
+URL 유해성 검증진행 : https://jhealthmedia.joins.com/article/article_view.asp?pno=26516
+[*] checker - START
+[*] extract_images_and_html - START
+[*] find_chrome_executable_windows - START
+[*] find_chrome_executable_windows - FINISH
+[*] find_chrome_profile - START
+[*] find_chrome_profile - FINISH
+[*] Saved image: 0_check-0
+[*] Saved image: 0_check-1
+[*] Saved image: 0_check-2
+[*] Saved image: 0_check-3
+[*] Saved image: 0_check-4
+[*] Saved image: 0_check-5
+[*] Saved image: 0_check-6
+[*] Saved image: 0_check-7
+[*] Saved image: 0_check-8
+[*] Saved image: 0_check-9
+[*] Saved image: 0_check-10
+[*] Saved image: 0_check-11
+[*] Saved image: 0_check-12
+[*] Saved image: 0_check-13
+[*] Saved image: 0_check-14
+[*] Saved image: 0_check-15
+[*] download_html - START
+[*] download_html - FINISH
+[*] extract_images_and_html - FINISH
+이미지 검증 - 0_check-0.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 0_check-1.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 0_check-10.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 0_check-11.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 0_check-12.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 0_check-13.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 0_check-14.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 0_check-15.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 0_check-2.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 0_check-3.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 0_check-4.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 0_check-5.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 0_check-6.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 0_check-7.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 0_check-8.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 0_check-9.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - need_check.html
+[*] extract_domain - START
+[*] extract_domain - FINISH
+[*] get_page_title - START
+[*] get_page_title - START
+[*] extract_hangul - START
+[*] extract_hangul - FINISH
+[*] check_text - START
+[*] check_text - FINISH
+[*] whois.get - START
+[*] whois.get - FINISH
+[*] save_data - START
+[*] find_last_row - START
+[*] find_last_row - FINISH
+[*] save_data - FINISH
+URL 유해성 검증진행 : https://www.edaily.co.kr/news/read?newsId=01298886625963096
+[*] checker - START
+[*] extract_images_and_html - START
+[*] find_chrome_executable_windows - START
+[*] find_chrome_executable_windows - FINISH
+[*] find_chrome_profile - START
+[*] find_chrome_profile - FINISH
+[*] Saved image: 1_check-0
+[*] Saved image: 1_check-1
+[*] Saved image: 1_check-2
+[*] Saved image: 1_check-3
+[*] Saved image: 1_check-4
+[*] Saved image: 1_check-5
+[*] Saved image: 1_check-6
+[*] Saved image: 1_check-7
+[*] Saved image: 1_check-8
+[*] Saved image: 1_check-9
+[*] Saved image: 1_check-10
+[*] Saved image: 1_check-11
+[*] Saved image: 1_check-12
+[*] Saved image: 1_check-13
+[*] Saved image: 1_check-14
+[*] Saved image: 1_check-15
+[*] Saved image: 1_check-16
+[*] Saved image: 1_check-17
+[*] Saved image: 1_check-18
+[*] Saved image: 1_check-19
+[*] Saved image: 1_check-20
+[*] Saved image: 1_check-21
+[*] Saved image: 1_check-22
+[*] Saved image: 1_check-23
+[*] Saved image: 1_check-24
+[*] Saved image: 1_check-25
+[*] Saved image: 1_check-26
+[*] Saved image: 1_check-27
+[*] Saved image: 1_check-28
+[*] Saved image: 1_check-29
+[*] Saved image: 1_check-30
+[*] Saved image: 1_check-31
+[*] Saved image: 1_check-32
+[*] Saved image: 1_check-33
+[!] extract_images_and_html - ERROR :  unknown url type: ''
+[!] extract_images_and_html - ERROR :  unknown url type: ''
+[!] extract_images_and_html - ERROR :  unknown url type: ''
+[!] extract_images_and_html - ERROR :  unknown url type: ''
+[!] extract_images_and_html - ERROR :  unknown url type: ''
+[*] Saved image: 1_check-34
+[*] Saved image: 1_check-35
+[*] Saved image: 1_check-36
+[*] Saved image: 1_check-37
+[*] Saved image: 1_check-38
+[*] Saved image: 1_check-39
+[*] Saved image: 1_check-40
+[*] Saved image: 1_check-41
+[*] Saved image: 1_check-42
+[*] Saved image: 1_check-43
+[*] Saved image: 1_check-44
+[*] Saved image: 1_check-45
+[*] Saved image: 1_check-46
+[*] Saved image: 1_check-47
+[*] Saved image: 1_check-48
+[*] Saved image: 1_check-49
+[*] Saved image: 1_check-50
+[*] Saved image: 1_check-51
+[*] Saved image: 1_check-52
+[*] Saved image: 1_check-53
+[*] download_html - START
+[*] download_html - FINISH
+[*] extract_images_and_html - FINISH
+이미지 검증 - 1_check-0.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 1_check-1.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 1_check-10.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 1_check-11.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 1_check-12.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 1_check-13.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 1_check-14.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 1_check-15.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 1_check-16.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 1_check-17.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 1_check-18.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 1_check-19.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 1_check-2.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 1_check-20.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 1_check-21.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 1_check-22.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 1_check-23.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 1_check-24.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 1_check-25.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 1_check-26.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 1_check-27.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 1_check-28.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 1_check-29.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 1_check-3.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 1_check-30.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 1_check-31.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 1_check-32.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 1_check-33.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 1_check-34.jpg
+[*] detect_safe_search - START
+[!] detect_safe_search - ERROR : Bad image data.
+[!] checker - ERROR : Bad image data.
+For more info on error messages, check: https://cloud.google.com/apis/design/errors
+이미지 검증 - 1_check-35.jpg
+[*] detect_safe_search - START
+[!] detect_safe_search - ERROR : Bad image data.
+[!] checker - ERROR : Bad image data.
+For more info on error messages, check: https://cloud.google.com/apis/design/errors
+이미지 검증 - 1_check-36.jpg
+[*] detect_safe_search - START
+[!] detect_safe_search - ERROR : Bad image data.
+[!] checker - ERROR : Bad image data.
+For more info on error messages, check: https://cloud.google.com/apis/design/errors
+이미지 검증 - 1_check-37.jpg
+[*] detect_safe_search - START
+[!] detect_safe_search - ERROR : Bad image data.
+[!] checker - ERROR : Bad image data.
+For more info on error messages, check: https://cloud.google.com/apis/design/errors
+이미지 검증 - 1_check-38.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 1_check-39.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 1_check-4.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 1_check-40.jpg
+[*] detect_safe_search - START
+[!] detect_safe_search - ERROR : Bad image data.
+[!] checker - ERROR : Bad image data.
+For more info on error messages, check: https://cloud.google.com/apis/design/errors
+이미지 검증 - 1_check-41.jpg
+[*] detect_safe_search - START
+[!] detect_safe_search - ERROR : Bad image data.
+[!] checker - ERROR : Bad image data.
+For more info on error messages, check: https://cloud.google.com/apis/design/errors
+이미지 검증 - 1_check-42.jpg
+[*] detect_safe_search - START
+[!] detect_safe_search - ERROR : Bad image data.
+[!] checker - ERROR : Bad image data.
+For more info on error messages, check: https://cloud.google.com/apis/design/errors
+이미지 검증 - 1_check-43.jpg
+[*] detect_safe_search - START
+[!] detect_safe_search - ERROR : Bad image data.
+[!] checker - ERROR : Bad image data.
+For more info on error messages, check: https://cloud.google.com/apis/design/errors
+이미지 검증 - 1_check-44.jpg
+[*] detect_safe_search - START
+[!] detect_safe_search - ERROR : Bad image data.
+[!] checker - ERROR : Bad image data.
+For more info on error messages, check: https://cloud.google.com/apis/design/errors
+이미지 검증 - 1_check-45.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 1_check-46.jpg
+[*] detect_safe_search - START
+[!] detect_safe_search - ERROR : Bad image data.
+[!] checker - ERROR : Bad image data.
+For more info on error messages, check: https://cloud.google.com/apis/design/errors
+이미지 검증 - 1_check-47.jpg
+[*] detect_safe_search - START
+[!] detect_safe_search - ERROR : Bad image data.
+[!] checker - ERROR : Bad image data.
+For more info on error messages, check: https://cloud.google.com/apis/design/errors
+이미지 검증 - 1_check-48.jpg
+[*] detect_safe_search - START
+[!] detect_safe_search - ERROR : Bad image data.
+[!] checker - ERROR : Bad image data.
+For more info on error messages, check: https://cloud.google.com/apis/design/errors
+이미지 검증 - 1_check-49.jpg
+[*] detect_safe_search - START
+[!] detect_safe_search - ERROR : Bad image data.
+[!] checker - ERROR : Bad image data.
+For more info on error messages, check: https://cloud.google.com/apis/design/errors
+이미지 검증 - 1_check-5.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 1_check-50.jpg
+[*] detect_safe_search - START
+[!] detect_safe_search - ERROR : Bad image data.
+[!] checker - ERROR : Bad image data.
+For more info on error messages, check: https://cloud.google.com/apis/design/errors
+이미지 검증 - 1_check-51.jpg
+[*] detect_safe_search - START
+[!] detect_safe_search - ERROR : Bad image data.
+[!] checker - ERROR : Bad image data.
+For more info on error messages, check: https://cloud.google.com/apis/design/errors
+이미지 검증 - 1_check-52.jpg
+[*] detect_safe_search - START
+[!] detect_safe_search - ERROR : Bad image data.
+[!] checker - ERROR : Bad image data.
+For more info on error messages, check: https://cloud.google.com/apis/design/errors
+이미지 검증 - 1_check-53.jpg
+[*] detect_safe_search - START
+[!] detect_safe_search - ERROR : Bad image data.
+[!] checker - ERROR : Bad image data.
+For more info on error messages, check: https://cloud.google.com/apis/design/errors
+이미지 검증 - 1_check-6.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 1_check-7.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 1_check-8.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 1_check-9.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - need_check.html
+[*] extract_domain - START
+[*] extract_domain - FINISH
+[*] get_page_title - START
+[*] get_page_title - START
+[*] extract_hangul - START
+[*] extract_hangul - FINISH
+[*] check_text - START
+[*] check_text - FINISH
+[*] whois.get - START
+[*] whois.get - FINISH
+[*] save_data - START
+[*] find_last_row - START
+[*] find_last_row - FINISH
+[*] save_data - FINISH
+URL 유해성 검증진행 : http://www.mind-journal.com/news/articleView.html?idxno=71
+[*] checker - START
+[*] extract_images_and_html - START
+[*] find_chrome_executable_windows - START
+[*] find_chrome_executable_windows - FINISH
+[*] find_chrome_profile - START
+[*] find_chrome_profile - FINISH
+[*] Saved image: 2_check-0
+[*] Saved image: 2_check-1
+[*] Saved image: 2_check-2
+[*] Saved image: 2_check-3
+[*] Saved image: 2_check-4
+[*] Saved image: 2_check-5
+[*] Saved image: 2_check-6
+[*] Saved image: 2_check-7
+[*] Saved image: 2_check-8
+[*] Saved image: 2_check-9
+[*] Saved image: 2_check-10
+[*] Saved image: 2_check-11
+[*] download_html - START
+[*] download_html - FINISH
+[*] extract_images_and_html - FINISH
+이미지 검증 - 2_check-0.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 2_check-1.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 2_check-10.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 2_check-11.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 2_check-2.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 2_check-3.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 2_check-4.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 2_check-5.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 2_check-6.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 2_check-7.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 2_check-8.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 2_check-9.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - need_check.html
+[*] extract_domain - START
+[*] extract_domain - FINISH
+[*] get_page_title - START
+[*] get_page_title - START
+[*] extract_hangul - START
+[*] extract_hangul - FINISH
+[*] check_text - START
+[*] check_text - FINISH
+[*] whois.get - START
+[*] whois.get - FINISH
+[*] save_data - START
+[*] find_last_row - START
+[*] find_last_row - FINISH
+[*] save_data - FINISH
+URL 유해성 검증진행 : https://twitter.com/hope_willbeokay
+[*] checker - START
+[*] extract_images_and_html - START
+[*] find_chrome_executable_windows - START
+[*] find_chrome_executable_windows - FINISH
+[*] find_chrome_profile - START
+[*] find_chrome_profile - FINISH
+[*] Saved image: 3_check-0
+[*] Saved image: 3_check-1
+[*] Saved image: 3_check-2
+[*] Saved image: 3_check-3
+[*] Saved image: 3_check-4
+[*] Saved image: 3_check-5
+[*] Saved image: 3_check-6
+[*] Saved image: 3_check-7
+[*] Saved image: 3_check-8
+[*] Saved image: 3_check-9
+[*] Saved image: 3_check-10
+[*] Saved image: 3_check-11
+[*] Saved image: 3_check-12
+[*] download_html - START
+[*] download_html - FINISH
+[*] extract_images_and_html - FINISH
+이미지 검증 - 3_check-0.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 3_check-1.jpg
+[*] detect_safe_search - START
+[!] detect_safe_search - ERROR : Bad image data.
+[!] checker - ERROR : Bad image data.
+For more info on error messages, check: https://cloud.google.com/apis/design/errors
+이미지 검증 - 3_check-10.jpg
+[*] detect_safe_search - START
+[!] detect_safe_search - ERROR : Bad image data.
+[!] checker - ERROR : Bad image data.
+For more info on error messages, check: https://cloud.google.com/apis/design/errors
+이미지 검증 - 3_check-11.jpg
+[*] detect_safe_search - START
+[!] detect_safe_search - ERROR : Bad image data.
+[!] checker - ERROR : Bad image data.
+For more info on error messages, check: https://cloud.google.com/apis/design/errors
+이미지 검증 - 3_check-12.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 3_check-2.jpg
+[*] detect_safe_search - START
+[!] detect_safe_search - ERROR : Bad image data.
+[!] checker - ERROR : Bad image data.
+For more info on error messages, check: https://cloud.google.com/apis/design/errors
+이미지 검증 - 3_check-3.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 3_check-4.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 3_check-5.jpg
+[*] detect_safe_search - START
+[!] detect_safe_search - ERROR : Bad image data.
+[!] checker - ERROR : Bad image data.
+For more info on error messages, check: https://cloud.google.com/apis/design/errors
+이미지 검증 - 3_check-6.jpg
+[*] detect_safe_search - START
+[!] detect_safe_search - ERROR : Bad image data.
+[!] checker - ERROR : Bad image data.
+For more info on error messages, check: https://cloud.google.com/apis/design/errors
+이미지 검증 - 3_check-7.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 3_check-8.jpg
+[*] detect_safe_search - START
+[!] detect_safe_search - ERROR : Bad image data.
+[!] checker - ERROR : Bad image data.
+For more info on error messages, check: https://cloud.google.com/apis/design/errors
+이미지 검증 - 3_check-9.jpg
+[*] detect_safe_search - START
+[!] detect_safe_search - ERROR : Bad image data.
+[!] checker - ERROR : Bad image data.
+For more info on error messages, check: https://cloud.google.com/apis/design/errors
+이미지 검증 - need_check.html
+[*] extract_domain - START
+[*] extract_domain - FINISH
+[*] get_page_title - START
+[*] get_page_title - START
+[*] extract_hangul - START
+[*] extract_hangul - FINISH
+[*] check_text - START
+[*] check_text - FINISH
+[*] whois.get - START
+[*] whois.get - FINISH
+[*] save_data - START
+[*] find_last_row - START
+[*] find_last_row - FINISH
+[*] save_data - FINISH
+URL 유해성 검증진행 : http://www.knpanews.or.kr/news/articleView.html?idxno=95
+[*] checker - START
+[*] extract_images_and_html - START
+[*] find_chrome_executable_windows - START
+[*] find_chrome_executable_windows - FINISH
+[*] find_chrome_profile - START
+[*] find_chrome_profile - FINISH
+[*] Saved image: 4_check-0
+[*] Saved image: 4_check-1
+[*] Saved image: 4_check-2
+[*] Saved image: 4_check-3
+[*] Saved image: 4_check-4
+[*] Saved image: 4_check-5
+[*] Saved image: 4_check-6
+[*] download_html - START
+[*] download_html - FINISH
+[*] extract_images_and_html - FINISH
+이미지 검증 - 4_check-0.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 4_check-1.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 4_check-2.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 4_check-3.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 4_check-4.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 4_check-5.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 4_check-6.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - need_check.html
+[*] extract_domain - START
+[*] extract_domain - FINISH
+[*] get_page_title - START
+[*] get_page_title - START
+[*] extract_hangul - START
+[*] extract_hangul - FINISH
+[*] check_text - START
+[*] check_text - FINISH
+[*] whois.get - START
+[*] whois.get - FINISH
+[*] save_data - START
+[*] find_last_row - START
+[*] find_last_row - FINISH
+[*] save_data - FINISH
+URL 유해성 검증진행 : https://www.msdmanuals.com/ko-kr/%ED%99%88/%EC%A0%95%EC%8B%A0-%EA%B1%B4%EA%B0%95-%EC%9E%A5%EC%95%A0/%EC%9E%90%EC%82%B4-%ED%96%89%EB%8F%99%EA%B3%BC-%EC%9E%90%ED%95%B4/%EB%B9%84%EC%9E%90%EC%82%B4%EC%84%B1-%EC%9E%90%ED%95%B4
+[*] checker - START
+[*] extract_images_and_html - START
+[*] find_chrome_executable_windows - START
+[*] find_chrome_executable_windows - FINISH
+[*] find_chrome_profile - START
+[*] find_chrome_profile - FINISH
+[*] Saved image: 5_check-0
+[*] Saved image: 5_check-1
+[*] Saved image: 5_check-2
+[*] Saved image: 5_check-3
+[*] Saved image: 5_check-4
+[!] extract_images_and_html - ERROR :  unknown url type: ''
+[!] extract_images_and_html - ERROR :  unknown url type: ''
+[*] Saved image: 5_check-5
+[*] Saved image: 5_check-6
+[*] Saved image: 5_check-7
+[*] download_html - START
+[*] download_html - FINISH
+[*] extract_images_and_html - FINISH
+이미지 검증 - 5_check-0.jpg
+[*] detect_safe_search - START
+[!] detect_safe_search - ERROR : Bad image data.
+[!] checker - ERROR : Bad image data.
+For more info on error messages, check: https://cloud.google.com/apis/design/errors
+이미지 검증 - 5_check-1.jpg
+[*] detect_safe_search - START
+[!] detect_safe_search - ERROR : Bad image data.
+[!] checker - ERROR : Bad image data.
+For more info on error messages, check: https://cloud.google.com/apis/design/errors
+이미지 검증 - 5_check-2.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 5_check-3.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 5_check-4.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 5_check-5.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 5_check-6.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 5_check-7.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - need_check.html
+[*] extract_domain - START
+[*] extract_domain - FINISH
+[*] get_page_title - START
+[*] get_page_title - START
+[*] extract_hangul - START
+[*] extract_hangul - FINISH
+[*] check_text - START
+[*] check_text - FINISH
+[*] whois.get - START
+[*] whois.get - FINISH
+[*] save_data - START
+[*] find_last_row - START
+[*] find_last_row - FINISH
+[*] save_data - FINISH
+URL 유해성 검증진행 : https://scienceon.kisti.re.kr/srch/selectPORSrchArticle.do?cn=DIKO0015959057
+[*] checker - START
+[*] extract_images_and_html - START
+[*] find_chrome_executable_windows - START
+[*] find_chrome_executable_windows - FINISH
+[*] find_chrome_profile - START
+[*] find_chrome_profile - FINISH
+[*] Saved image: 6_check-0
+[*] Saved image: 6_check-1
+[*] Saved image: 6_check-2
+[*] Saved image: 6_check-3
+[*] Saved image: 6_check-4
+[*] Saved image: 6_check-5
+[*] Saved image: 6_check-6
+[*] Saved image: 6_check-7
+[*] Saved image: 6_check-8
+[*] Saved image: 6_check-9
+[*] Saved image: 6_check-10
+[*] Saved image: 6_check-11
+[*] Saved image: 6_check-12
+[*] Saved image: 6_check-13
+[*] Saved image: 6_check-14
+[*] Saved image: 6_check-15
+[*] Saved image: 6_check-16
+[*] Saved image: 6_check-17
+[*] Saved image: 6_check-18
+[*] Saved image: 6_check-19
+[*] Saved image: 6_check-20
+[*] Saved image: 6_check-21
+[*] Saved image: 6_check-22
+[*] Saved image: 6_check-23
+[*] Saved image: 6_check-24
+[*] download_html - START
+[*] download_html - FINISH
+[*] extract_images_and_html - FINISH
+이미지 검증 - 6_check-0.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 6_check-1.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 6_check-10.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 6_check-11.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 6_check-12.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 6_check-13.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 6_check-14.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 6_check-15.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 6_check-16.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 6_check-17.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 6_check-18.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 6_check-19.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 6_check-2.jpg
+[*] detect_safe_search - START
+[!] detect_safe_search - ERROR : Bad image data.
+[!] checker - ERROR : Bad image data.
+For more info on error messages, check: https://cloud.google.com/apis/design/errors
+이미지 검증 - 6_check-20.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 6_check-21.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 6_check-22.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 6_check-23.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 6_check-24.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 6_check-3.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 6_check-4.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 6_check-5.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 6_check-6.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 6_check-7.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 6_check-8.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 6_check-9.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - need_check.html
+[*] extract_domain - START
+[*] extract_domain - FINISH
+[*] get_page_title - START
+[*] get_page_title - START
+[*] extract_hangul - START
+[*] extract_hangul - FINISH
+[*] check_text - START
+[*] check_text - FINISH
+[*] whois.get - START
+[*] whois.get - FINISH
+[*] save_data - START
+[*] find_last_row - START
+[*] find_last_row - FINISH
+[*] save_data - FINISH
+URL 유해성 검증진행 : https://m.kmib.co.kr/view.asp?arcid=0018329626
+[*] checker - START
+[*] extract_images_and_html - START
+[*] find_chrome_executable_windows - START
+[*] find_chrome_executable_windows - FINISH
+[*] find_chrome_profile - START
+[*] find_chrome_profile - FINISH
+[*] Saved image: 7_check-0
+[*] Saved image: 7_check-1
+[*] Saved image: 7_check-2
+[*] Saved image: 7_check-3
+[*] Saved image: 7_check-4
+[*] Saved image: 7_check-5
+[*] Saved image: 7_check-6
+[*] Saved image: 7_check-7
+[*] Saved image: 7_check-8
+[*] Saved image: 7_check-9
+[*] Saved image: 7_check-10
+[*] Saved image: 7_check-11
+[*] Saved image: 7_check-12
+[*] Saved image: 7_check-13
+[*] Saved image: 7_check-14
+[*] Saved image: 7_check-15
+[*] Saved image: 7_check-16
+[*] Saved image: 7_check-17
+[*] Saved image: 7_check-18
+[*] Saved image: 7_check-19
+[*] Saved image: 7_check-20
+[*] Saved image: 7_check-21
+[*] Saved image: 7_check-22
+[*] Saved image: 7_check-23
+[*] Saved image: 7_check-24
+[*] Saved image: 7_check-25
+[*] Saved image: 7_check-26
+[*] Saved image: 7_check-27
+[*] Saved image: 7_check-28
+[*] Saved image: 7_check-29
+[*] Saved image: 7_check-30
+[*] Saved image: 7_check-31
+[*] Saved image: 7_check-32
+[*] Saved image: 7_check-33
+[*] Saved image: 7_check-34
+[*] Saved image: 7_check-35
+[*] Saved image: 7_check-36
+[*] Saved image: 7_check-37
+[*] Saved image: 7_check-38
+[*] Saved image: 7_check-39
+[*] Saved image: 7_check-40
+[*] Saved image: 7_check-41
+[*] Saved image: 7_check-42
+[*] Saved image: 7_check-43
+[*] Saved image: 7_check-44
+[*] Saved image: 7_check-45
+[*] Saved image: 7_check-46
+[*] Saved image: 7_check-47
+[*] Saved image: 7_check-48
+[*] Saved image: 7_check-49
+[*] Saved image: 7_check-50
+[*] Saved image: 7_check-51
+[*] Saved image: 7_check-52
+[*] Saved image: 7_check-53
+[*] Saved image: 7_check-54
+[*] Saved image: 7_check-55
+[*] Saved image: 7_check-56
+[*] Saved image: 7_check-57
+[*] Saved image: 7_check-58
+[*] Saved image: 7_check-59
+[*] Saved image: 7_check-60
+[*] Saved image: 7_check-61
+[*] Saved image: 7_check-62
+[*] Saved image: 7_check-63
+[*] Saved image: 7_check-64
+[*] Saved image: 7_check-65
+[*] Saved image: 7_check-66
+[*] Saved image: 7_check-67
+[*] Saved image: 7_check-68
+[*] Saved image: 7_check-69
+[*] Saved image: 7_check-70
+[*] Saved image: 7_check-71
+[*] Saved image: 7_check-72
+[*] Saved image: 7_check-73
+[*] Saved image: 7_check-74
+[*] Saved image: 7_check-75
+[*] Saved image: 7_check-76
+[*] Saved image: 7_check-77
+[*] Saved image: 7_check-78
+[*] Saved image: 7_check-79
+[*] Saved image: 7_check-80
+[*] Saved image: 7_check-81
+[*] Saved image: 7_check-82
+[*] Saved image: 7_check-83
+[*] Saved image: 7_check-84
+[*] Saved image: 7_check-85
+[*] Saved image: 7_check-86
+[*] Saved image: 7_check-87
+[*] Saved image: 7_check-88
+[*] Saved image: 7_check-89
+[*] Saved image: 7_check-90
+[*] Saved image: 7_check-91
+[*] Saved image: 7_check-92
+[*] Saved image: 7_check-93
+[*] Saved image: 7_check-94
+[*] Saved image: 7_check-95
+[*] Saved image: 7_check-96
+[*] Saved image: 7_check-97
+[*] Saved image: 7_check-98
+[*] Saved image: 7_check-99
+[*] Saved image: 7_check-100
+[*] Saved image: 7_check-101
+[*] download_html - START
+[*] download_html - FINISH
+[*] extract_images_and_html - FINISH
+이미지 검증 - 7_check-0.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-1.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-10.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-100.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-101.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-11.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-12.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-13.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-14.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-15.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-16.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-17.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-18.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-19.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-2.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-20.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-21.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-22.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-23.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-24.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-25.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-26.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-27.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-28.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-29.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-3.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-30.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-31.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-32.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-33.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-34.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-35.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-36.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-37.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-38.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-39.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-4.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-40.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-41.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-42.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-43.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-44.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-45.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-46.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-47.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-48.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-49.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-5.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-50.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-51.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-52.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-53.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-54.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-55.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-56.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-57.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-58.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-59.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-6.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-60.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-61.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-62.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-63.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-64.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-65.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-66.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-67.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-68.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-69.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-7.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-70.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-71.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-72.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-73.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-74.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-75.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-76.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-77.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-78.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-79.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-8.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-80.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-81.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-82.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-83.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-84.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-85.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-86.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-87.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-88.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-89.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-9.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-90.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-91.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-92.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-93.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-94.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-95.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-96.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-97.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-98.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 7_check-99.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - need_check.html
+[*] extract_domain - START
+[*] extract_domain - FINISH
+[*] get_page_title - START
+[*] get_page_title - START
+[*] extract_hangul - START
+[*] extract_hangul - FINISH
+[*] check_text - START
+[*] check_text - FINISH
+[*] whois.get - START
+[*] whois.get - FINISH
+[*] save_data - START
+[*] find_last_row - START
+[*] find_last_row - FINISH
+[*] save_data - FINISH
+URL 유해성 검증진행 : https://h21.hani.co.kr/arti/cover/cover_general/46167.html
+[*] checker - START
+[*] extract_images_and_html - START
+[*] find_chrome_executable_windows - START
+[*] find_chrome_executable_windows - FINISH
+[*] find_chrome_profile - START
+[*] find_chrome_profile - FINISH
+[*] Saved image: 8_check-0
+[*] Saved image: 8_check-1
+[*] Saved image: 8_check-2
+[*] Saved image: 8_check-3
+[*] Saved image: 8_check-4
+[*] Saved image: 8_check-5
+[*] Saved image: 8_check-6
+[*] Saved image: 8_check-7
+[*] Saved image: 8_check-8
+[*] Saved image: 8_check-9
+[*] Saved image: 8_check-10
+[*] Saved image: 8_check-11
+[*] Saved image: 8_check-12
+[*] Saved image: 8_check-13
+[*] Saved image: 8_check-14
+[*] Saved image: 8_check-15
+[*] Saved image: 8_check-16
+[*] Saved image: 8_check-17
+[*] Saved image: 8_check-18
+[*] Saved image: 8_check-19
+[*] Saved image: 8_check-20
+[*] Saved image: 8_check-21
+[*] Saved image: 8_check-22
+[*] Saved image: 8_check-23
+[*] Saved image: 8_check-24
+[*] Saved image: 8_check-25
+[*] Saved image: 8_check-26
+[*] Saved image: 8_check-27
+[*] Saved image: 8_check-28
+[*] Saved image: 8_check-29
+[*] Saved image: 8_check-30
+[*] download_html - START
+[*] download_html - FINISH
+[*] extract_images_and_html - FINISH
+이미지 검증 - 8_check-0.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 8_check-1.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 8_check-10.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 8_check-11.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 8_check-12.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 8_check-13.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 8_check-14.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 8_check-15.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 8_check-16.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 8_check-17.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 8_check-18.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 8_check-19.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 8_check-2.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 8_check-20.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 8_check-21.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 8_check-22.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 8_check-23.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 8_check-24.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 8_check-25.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 8_check-26.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 8_check-27.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 8_check-28.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 8_check-29.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 8_check-3.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 8_check-30.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 8_check-4.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 8_check-5.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 8_check-6.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 8_check-7.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 8_check-8.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 8_check-9.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - need_check.html
+[*] extract_domain - START
+[*] extract_domain - FINISH
+[*] get_page_title - START
+[*] get_page_title - START
+[*] extract_hangul - START
+[*] extract_hangul - FINISH
+[*] check_text - START
+[*] check_text - FINISH
+[*] whois.get - START
+[*] whois.get - FINISH
+[*] save_data - START
+[*] find_last_row - START
+[*] find_last_row - FINISH
+[*] save_data - FINISH
+URL 유해성 검증진행 : https://www.hani.co.kr/arti/society/society_general/869668.html
+[*] checker - START
+[*] extract_images_and_html - START
+[*] find_chrome_executable_windows - START
+[*] find_chrome_executable_windows - FINISH
+[*] find_chrome_profile - START
+[*] find_chrome_profile - FINISH
+[*] Saved image: 9_check-0
+[*] Saved image: 9_check-1
+[*] Saved image: 9_check-2
+[*] Saved image: 9_check-3
+[*] Saved image: 9_check-4
+[*] Saved image: 9_check-5
+[*] Saved image: 9_check-6
+[*] Saved image: 9_check-7
+[*] Saved image: 9_check-8
+[*] Saved image: 9_check-9
+[*] Saved image: 9_check-10
+[*] Saved image: 9_check-11
+[*] Saved image: 9_check-12
+[*] Saved image: 9_check-13
+[*] Saved image: 9_check-14
+[*] Saved image: 9_check-15
+[*] Saved image: 9_check-16
+[*] Saved image: 9_check-17
+[*] Saved image: 9_check-18
+[*] Saved image: 9_check-19
+[*] Saved image: 9_check-20
+[*] Saved image: 9_check-21
+[*] Saved image: 9_check-22
+[*] Saved image: 9_check-23
+[*] Saved image: 9_check-24
+[*] Saved image: 9_check-25
+[*] Saved image: 9_check-26
+[*] Saved image: 9_check-27
+[*] Saved image: 9_check-28
+[*] Saved image: 9_check-29
+[*] Saved image: 9_check-30
+[*] Saved image: 9_check-31
+[*] Saved image: 9_check-32
+[*] Saved image: 9_check-33
+[*] Saved image: 9_check-34
+[*] Saved image: 9_check-35
+[*] Saved image: 9_check-36
+[*] Saved image: 9_check-37
+[*] download_html - START
+[*] download_html - FINISH
+[*] extract_images_and_html - FINISH
+이미지 검증 - 9_check-0.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 9_check-1.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 9_check-10.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 9_check-11.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 9_check-12.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 9_check-13.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 9_check-14.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 9_check-15.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 9_check-16.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 9_check-17.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 9_check-18.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 9_check-19.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 9_check-2.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 9_check-20.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 9_check-21.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 9_check-22.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 9_check-23.jpg
+[*] detect_safe_search - START
+[!] checker - ERROR : 400 Request must specify image and features.
+이미지 검증 - 9_check-24.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 9_check-25.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 9_check-26.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 9_check-27.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 9_check-28.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 9_check-29.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 9_check-3.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 9_check-30.jpg
+[*] detect_safe_search - START
+[!] detect_safe_search - ERROR : Bad image data.
+[!] checker - ERROR : Bad image data.
+For more info on error messages, check: https://cloud.google.com/apis/design/errors
+이미지 검증 - 9_check-31.jpg
+[*] detect_safe_search - START
+[!] detect_safe_search - ERROR : Bad image data.
+[!] checker - ERROR : Bad image data.
+For more info on error messages, check: https://cloud.google.com/apis/design/errors
+이미지 검증 - 9_check-32.jpg
+[*] detect_safe_search - START
+[!] detect_safe_search - ERROR : Bad image data.
+[!] checker - ERROR : Bad image data.
+For more info on error messages, check: https://cloud.google.com/apis/design/errors
+이미지 검증 - 9_check-33.jpg
+[*] detect_safe_search - START
+[!] detect_safe_search - ERROR : Bad image data.
+[!] checker - ERROR : Bad image data.
+For more info on error messages, check: https://cloud.google.com/apis/design/errors
+이미지 검증 - 9_check-34.jpg
+[*] detect_safe_search - START
+[!] detect_safe_search - ERROR : Bad image data.
+[!] checker - ERROR : Bad image data.
+For more info on error messages, check: https://cloud.google.com/apis/design/errors
+이미지 검증 - 9_check-35.jpg
+[*] detect_safe_search - START
+[!] detect_safe_search - ERROR : Bad image data.
+[!] checker - ERROR : Bad image data.
+For more info on error messages, check: https://cloud.google.com/apis/design/errors
+이미지 검증 - 9_check-36.jpg
+[*] detect_safe_search - START
+[!] detect_safe_search - ERROR : Bad image data.
+[!] checker - ERROR : Bad image data.
+For more info on error messages, check: https://cloud.google.com/apis/design/errors
+이미지 검증 - 9_check-37.jpg
+[*] detect_safe_search - START
+[!] detect_safe_search - ERROR : Bad image data.
+[!] checker - ERROR : Bad image data.
+For more info on error messages, check: https://cloud.google.com/apis/design/errors
+이미지 검증 - 9_check-4.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 9_check-5.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 9_check-6.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 9_check-7.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 9_check-8.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 9_check-9.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - need_check.html
+[*] extract_domain - START
+[*] extract_domain - FINISH
+[*] get_page_title - START
+[*] get_page_title - START
+[*] extract_hangul - START
+[*] extract_hangul - FINISH
+[*] check_text - START
+[*] check_text - FINISH
+[*] whois.get - START
+[*] whois.get - FINISH
+[*] save_data - START
+[*] find_last_row - START
+[*] find_last_row - FINISH
+[*] save_data - FINISH
+URL 유해성 검증진행 : https://namu.wiki/w/%EC%9E%90%ED%95%B4
+[*] checker - START
+[*] extract_images_and_html - START
+[*] find_chrome_executable_windows - START
+[*] find_chrome_executable_windows - FINISH
+[*] find_chrome_profile - START
+[*] find_chrome_profile - FINISH
+[*] Saved image: 10_check-0
+[!] extract_images_and_html - ERROR : https://i.namu.wiki/i/Ui0tmQvdqLQfZVbPxGEID8g7hxpxORECxlBgqWgjeAR2nz3G7vks5yYUC-ybbQIu3OHL7fjzCSidZHy44yT0kpLATIzgbuz-5BJ0tdntvpOvzm6X8xlZkwhd0mUyG2GY5ZN1_ZF7P4rNT5DryrsYXw.svg HTTP Error 403: Forbidden
+[*] Saved image: 10_check-1
+[!] extract_images_and_html - ERROR : https://i.namu.wiki/i/z2Y1Bmyyi-CvE5LNcoep4iS4-4Mfzs4xpRz-zxl6cNM.png HTTP Error 403: Forbidden
+[*] Saved image: 10_check-2
+[!] extract_images_and_html - ERROR : https://i.namu.wiki/i/mNG6121bcjcDPO9oXGHHgON0fYgpxqshERTOEJH2YhY.png HTTP Error 403: Forbidden
+[!] extract_images_and_html - ERROR : https://i.namu.wiki/i/QqyJ5ZVMFNj9BaoBHVYDeby_UuIzw_W70DY2l3VITCTAwcPzWQR7yJRlW8K-OFhxUoU93feyLeOgmWa-zKUL4BqORKafA8syY5QquLq-DyUFhrxee7XuQKzIxQAkrBYrCllBoUE2g2ecJL1szwr6Hp37BLOfsHx9t5ad269FUGP28MXIcbvBQfplqjh_5KQNi2ZbAOWkg8AeBO1zQwltSBa1Y4-U10GChh5RSoBPjdP2Og5r1mSCOEg9-yW19EhIbr1GgwTBdQk7uQjpdPUX_TSjW2rlxtEoTMSRrg2OF8nSqHB8zJ2bta3NIiZVtbUP.png HTTP Error 403: Forbidden
+[!] extract_images_and_html - ERROR : https://i.namu.wiki/i/QqyJ5ZVMFNj9BaoBHVYDeby_UuIzw_W70DY2l3VITCTAwcPzWQR7yJRlW8K-OFhxzzpXoN40wVjEdKHvNMaMrrLOf7uOVD0HjpgoQO-APS6f6dVsn49aJ3Hvwd1lwcJqcVaWsnmeUCxxkPldJY2-4jjJN0d9so1tGdftzpP1dn_yOhUTnTZTT_ymi0H_p6OeEi2hwhj5JZ7K6GW_RVnVU_rTssruqXbnorgnwErbwIq1eDfGyX8Z2Ks1EaueQg0dlzHgkPfe11tGlH9-hfCBY5DFK841vdmKkH0vqVCLJxAxEjez-XbvP_D1mE5aJ_i2.png HTTP Error 403: Forbidden
+[!] extract_images_and_html - ERROR : https://namu.wiki/img/cc-by-nc-sa-2.0-88x31.png HTTP Error 403: Forbidden
+[*] Saved image: 10_check-3
+[*] Saved image: 10_check-4
+[*] download_html - START
+[*] download_html - FINISH
+[*] extract_images_and_html - FINISH
+이미지 검증 - 10_check-0.jpg
+[*] detect_safe_search - START
+[!] detect_safe_search - ERROR : Bad image data.
+[!] checker - ERROR : Bad image data.
+For more info on error messages, check: https://cloud.google.com/apis/design/errors
+이미지 검증 - 10_check-1.jpg
+[*] detect_safe_search - START
+[!] detect_safe_search - ERROR : Bad image data.
+[!] checker - ERROR : Bad image data.
+For more info on error messages, check: https://cloud.google.com/apis/design/errors
+이미지 검증 - 10_check-2.jpg
+[*] detect_safe_search - START
+[!] detect_safe_search - ERROR : Bad image data.
+[!] checker - ERROR : Bad image data.
+For more info on error messages, check: https://cloud.google.com/apis/design/errors
+이미지 검증 - 10_check-3.jpg
+[*] detect_safe_search - START
+[!] detect_safe_search - ERROR : Bad image data.
+[!] checker - ERROR : Bad image data.
+For more info on error messages, check: https://cloud.google.com/apis/design/errors
+이미지 검증 - 10_check-4.jpg
+[*] detect_safe_search - START
+[!] detect_safe_search - ERROR : Bad image data.
+[!] checker - ERROR : Bad image data.
+For more info on error messages, check: https://cloud.google.com/apis/design/errors
+이미지 검증 - need_check.html
+[*] extract_domain - START
+[*] extract_domain - FINISH
+[*] get_page_title - START
+[*] get_page_title - START
+[*] extract_hangul - START
+[*] extract_hangul - FINISH
+[*] check_text - START
+[*] check_text - FINISH
+[*] whois.get - START
+[*] whois.get - FINISH
+[*] save_data - START
+[*] find_last_row - START
+[*] find_last_row - FINISH
+[*] save_data - FINISH
+URL 유해성 검증진행 : https://www.msdmanuals.com/ko/%ED%99%88/%EC%A0%95%EC%8B%A0-%EA%B1%B4%EA%B0%95-%EC%9E%A5%EC%95%A0/%EC%9E%90%EC%82%B4-%ED%96%89%EB%8F%99%EA%B3%BC-%EC%9E%90%ED%95%B4/%EB%B9%84%EC%9E%90%EC%82%B4%EC%84%B1-%EC%9E%90%ED%95%B4
+[*] checker - START
+[*] extract_images_and_html - START
+[*] find_chrome_executable_windows - START
+[*] find_chrome_executable_windows - FINISH
+[*] find_chrome_profile - START
+[*] find_chrome_profile - FINISH
+[*] Saved image: 11_check-0
+[*] Saved image: 11_check-1
+[*] Saved image: 11_check-2
+[*] Saved image: 11_check-3
+[!] extract_images_and_html - ERROR :  unknown url type: ''
+[!] extract_images_and_html - ERROR :  unknown url type: ''
+[*] Saved image: 11_check-4
+[*] Saved image: 11_check-5
+[*] Saved image: 11_check-6
+[*] download_html - START
+[*] download_html - FINISH
+[*] extract_images_and_html - FINISH
+이미지 검증 - 11_check-0.jpg
+[*] detect_safe_search - START
+[!] detect_safe_search - ERROR : Bad image data.
+[!] checker - ERROR : Bad image data.
+For more info on error messages, check: https://cloud.google.com/apis/design/errors
+이미지 검증 - 11_check-1.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 11_check-2.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 11_check-3.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 11_check-4.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 11_check-5.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 11_check-6.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - need_check.html
+[*] extract_domain - START
+[*] extract_domain - FINISH
+[*] get_page_title - START
+[*] get_page_title - START
+[*] extract_hangul - START
+[*] extract_hangul - FINISH
+[*] check_text - START
+[*] check_text - FINISH
+[*] whois.get - START
+[*] whois.get - FINISH
+[*] save_data - START
+[*] find_last_row - START
+[*] find_last_row - FINISH
+[*] save_data - FINISH
+URL 유해성 검증진행 : https://www.news1.kr/articles/?4814069
+[*] checker - START
+[*] extract_images_and_html - START
+[*] find_chrome_executable_windows - START
+[*] find_chrome_executable_windows - FINISH
+[*] find_chrome_profile - START
+[*] find_chrome_profile - FINISH
+[*] Saved image: 12_check-0
+[*] Saved image: 12_check-1
+[*] Saved image: 12_check-2
+[*] Saved image: 12_check-3
+[*] Saved image: 12_check-4
+[*] Saved image: 12_check-5
+[*] Saved image: 12_check-6
+[*] Saved image: 12_check-7
+[*] Saved image: 12_check-8
+[*] Saved image: 12_check-9
+[*] Saved image: 12_check-10
+[*] Saved image: 12_check-11
+[*] Saved image: 12_check-12
+[*] Saved image: 12_check-13
+[*] Saved image: 12_check-14
+[*] Saved image: 12_check-15
+[*] Saved image: 12_check-16
+[*] Saved image: 12_check-17
+[!] extract_images_and_html - ERROR : None expected string or bytes-like object
+[!] extract_images_and_html - ERROR : None expected string or bytes-like object
+[!] extract_images_and_html - ERROR : None expected string or bytes-like object
+[!] extract_images_and_html - ERROR : None expected string or bytes-like object
+[*] Saved image: 12_check-18
+[*] Saved image: 12_check-19
+[*] Saved image: 12_check-20
+[*] Saved image: 12_check-21
+[*] Saved image: 12_check-22
+[*] Saved image: 12_check-23
+[*] Saved image: 12_check-24
+[*] Saved image: 12_check-25
+[*] Saved image: 12_check-26
+[*] Saved image: 12_check-27
+[*] Saved image: 12_check-28
+[*] Saved image: 12_check-29
+[*] Saved image: 12_check-30
+[*] Saved image: 12_check-31
+[*] Saved image: 12_check-32
+[*] Saved image: 12_check-33
+[*] Saved image: 12_check-34
+[*] Saved image: 12_check-35
+[*] Saved image: 12_check-36
+[*] Saved image: 12_check-37
+[*] Saved image: 12_check-38
+[*] Saved image: 12_check-39
+[*] Saved image: 12_check-40
+[*] Saved image: 12_check-41
+[*] Saved image: 12_check-42
+[*] Saved image: 12_check-43
+[*] Saved image: 12_check-44
+[*] Saved image: 12_check-45
+[*] Saved image: 12_check-46
+[*] Saved image: 12_check-47
+[*] Saved image: 12_check-48
+[*] Saved image: 12_check-49
+[*] Saved image: 12_check-50
+[*] Saved image: 12_check-51
+[*] Saved image: 12_check-52
+[*] Saved image: 12_check-53
+[*] Saved image: 12_check-54
+[*] Saved image: 12_check-55
+[*] Saved image: 12_check-56
+[*] Saved image: 12_check-57
+[*] Saved image: 12_check-58
+[*] Saved image: 12_check-59
+[*] Saved image: 12_check-60
+[*] Saved image: 12_check-61
+[*] Saved image: 12_check-62
+[*] Saved image: 12_check-63
+[*] Saved image: 12_check-64
+[*] Saved image: 12_check-65
+[*] Saved image: 12_check-66
+[*] Saved image: 12_check-67
+[*] Saved image: 12_check-68
+[*] Saved image: 12_check-69
+[*] Saved image: 12_check-70
+[*] Saved image: 12_check-71
+[*] Saved image: 12_check-72
+[*] Saved image: 12_check-73
+[*] Saved image: 12_check-74
+[*] Saved image: 12_check-75
+[*] Saved image: 12_check-76
+[*] Saved image: 12_check-77
+[*] Saved image: 12_check-78
+[*] Saved image: 12_check-79
+[*] Saved image: 12_check-80
+[*] download_html - START
+[*] download_html - FINISH
+[*] extract_images_and_html - FINISH
+이미지 검증 - 12_check-0.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 12_check-1.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 12_check-10.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 12_check-11.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 12_check-12.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 12_check-13.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 12_check-14.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 12_check-15.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 12_check-16.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 12_check-17.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 12_check-18.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 12_check-19.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 12_check-2.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 12_check-20.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 12_check-21.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 12_check-22.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 12_check-23.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 12_check-24.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 12_check-25.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 12_check-26.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 12_check-27.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 12_check-28.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 12_check-29.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 12_check-3.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 12_check-30.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 12_check-31.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 12_check-32.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 12_check-33.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 12_check-34.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 12_check-35.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 12_check-36.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 12_check-37.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 12_check-38.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 12_check-39.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 12_check-4.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 12_check-40.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 12_check-41.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 12_check-42.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 12_check-43.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 12_check-44.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 12_check-45.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 12_check-46.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 12_check-47.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 12_check-48.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 12_check-49.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 12_check-5.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 12_check-50.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 12_check-51.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 12_check-52.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 12_check-53.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 12_check-54.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 12_check-55.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 12_check-56.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 12_check-57.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 12_check-58.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 12_check-59.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 12_check-6.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 12_check-60.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 12_check-61.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 12_check-62.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 12_check-63.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 12_check-64.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 12_check-65.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 12_check-66.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 12_check-67.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 12_check-68.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 12_check-69.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 12_check-7.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 12_check-70.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 12_check-71.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 12_check-72.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 12_check-73.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 12_check-74.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 12_check-75.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 12_check-76.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 12_check-77.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 12_check-78.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 12_check-79.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 12_check-8.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 12_check-80.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 12_check-9.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - need_check.html
+[*] extract_domain - START
+[*] extract_domain - FINISH
+[*] get_page_title - START
+[*] get_page_title - START
+[*] extract_hangul - START
+[*] extract_hangul - FINISH
+[*] check_text - START
+[*] check_text - FINISH
+[*] whois.get - START
+[*] whois.get - FINISH
+[*] save_data - START
+[*] find_last_row - START
+[*] find_last_row - FINISH
+[*] save_data - FINISH
+URL 유해성 검증진행 : https://ko.wikipedia.org/wiki/%EC%9E%90%ED%95%B4
+[*] checker - START
+[*] extract_images_and_html - START
+[*] find_chrome_executable_windows - START
+[*] find_chrome_executable_windows - FINISH
+[*] find_chrome_profile - START
+[*] find_chrome_profile - FINISH
+[*] Saved image: 13_check-0
+[*] Saved image: 13_check-1
+[*] Saved image: 13_check-2
+[*] Saved image: 13_check-3
+[*] Saved image: 13_check-4
+[*] Saved image: 13_check-5
+[*] Saved image: 13_check-6
+[*] Saved image: 13_check-7
+[*] Saved image: 13_check-8
+[*] Saved image: 13_check-9
+[*] Saved image: 13_check-10
+[*] Saved image: 13_check-11
+[*] Saved image: 13_check-12
+[*] Saved image: 13_check-13
+[*] Saved image: 13_check-14
+[*] Saved image: 13_check-15
+[*] Saved image: 13_check-16
+[*] download_html - START
+[*] download_html - FINISH
+[*] extract_images_and_html - FINISH
+이미지 검증 - 13_check-0.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 13_check-1.jpg
+[*] detect_safe_search - START
+[!] detect_safe_search - ERROR : Bad image data.
+[!] checker - ERROR : Bad image data.
+For more info on error messages, check: https://cloud.google.com/apis/design/errors
+이미지 검증 - 13_check-10.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 13_check-11.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 13_check-12.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 13_check-13.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 13_check-14.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 13_check-15.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 13_check-16.jpg
+[*] detect_safe_search - START
+[!] detect_safe_search - ERROR : Bad image data.
+[!] checker - ERROR : Bad image data.
+For more info on error messages, check: https://cloud.google.com/apis/design/errors
+이미지 검증 - 13_check-2.jpg
+[*] detect_safe_search - START
+[!] detect_safe_search - ERROR : Bad image data.
+[!] checker - ERROR : Bad image data.
+For more info on error messages, check: https://cloud.google.com/apis/design/errors
+이미지 검증 - 13_check-3.jpg
+[*] detect_safe_search - START
+[!] detect_safe_search - ERROR : Bad image data.
+[!] checker - ERROR : Bad image data.
+For more info on error messages, check: https://cloud.google.com/apis/design/errors
+이미지 검증 - 13_check-4.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 13_check-5.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 13_check-6.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 13_check-7.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 13_check-8.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 13_check-9.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - need_check.html
+[*] extract_domain - START
+[*] extract_domain - FINISH
+[*] get_page_title - START
+[*] get_page_title - START
+[*] extract_hangul - START
+[*] extract_hangul - FINISH
+[*] check_text - START
+[*] check_text - FINISH
+[*] whois.get - START
+[*] whois.get - FINISH
+[*] save_data - START
+[*] find_last_row - START
+[*] find_last_row - FINISH
+[*] save_data - FINISH
+URL 유해성 검증진행 : http://www.mindpost.or.kr/news/articleView.html?idxno=8502
+[*] checker - START
+[*] extract_images_and_html - START
+[*] find_chrome_executable_windows - START
+[*] find_chrome_executable_windows - FINISH
+[*] find_chrome_profile - START
+[*] find_chrome_profile - FINISH
+[*] Saved image: 14_check-0
+[*] Saved image: 14_check-1
+[*] Saved image: 14_check-2
+[*] Saved image: 14_check-3
+[*] Saved image: 14_check-4
+[*] Saved image: 14_check-5
+[*] Saved image: 14_check-6
+[*] Saved image: 14_check-7
+[*] Saved image: 14_check-8
+[*] Saved image: 14_check-9
+[*] Saved image: 14_check-10
+[*] Saved image: 14_check-11
+[*] Saved image: 14_check-12
+[*] Saved image: 14_check-13
+[*] Saved image: 14_check-14
+[*] Saved image: 14_check-15
+[*] Saved image: 14_check-16
+[*] Saved image: 14_check-17
+[*] Saved image: 14_check-18
+[*] Saved image: 14_check-19
+[*] Saved image: 14_check-20
+[*] Saved image: 14_check-21
+[*] Saved image: 14_check-22
+[*] Saved image: 14_check-23
+[*] Saved image: 14_check-24
+[*] download_html - START
+[*] download_html - FINISH
+[*] extract_images_and_html - FINISH
+이미지 검증 - 14_check-0.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 14_check-1.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 14_check-10.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 14_check-11.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 14_check-12.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 14_check-13.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 14_check-14.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 14_check-15.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 14_check-16.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 14_check-17.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 14_check-18.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 14_check-19.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 14_check-2.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 14_check-20.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 14_check-21.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 14_check-22.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 14_check-23.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 14_check-24.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 14_check-3.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 14_check-4.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 14_check-5.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 14_check-6.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 14_check-7.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 14_check-8.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 14_check-9.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - need_check.html
+[*] extract_domain - START
+[*] extract_domain - FINISH
+[*] get_page_title - START
+[*] get_page_title - START
+[*] extract_hangul - START
+[*] extract_hangul - FINISH
+[*] check_text - START
+[*] check_text - FINISH
+[*] whois.get - START
+[*] whois.get - FINISH
+[*] save_data - START
+[*] find_last_row - START
+[*] find_last_row - FINISH
+[*] save_data - FINISH
+URL 유해성 검증진행 : https://twitter.com/r152nPcmgA93082
+[*] checker - START
+[*] extract_images_and_html - START
+[*] find_chrome_executable_windows - START
+[*] find_chrome_executable_windows - FINISH
+[*] find_chrome_profile - START
+[*] find_chrome_profile - FINISH
+[*] Saved image: 15_check-0
+[*] Saved image: 15_check-1
+[*] Saved image: 15_check-2
+[*] Saved image: 15_check-3
+[*] Saved image: 15_check-4
+[*] Saved image: 15_check-5
+[*] Saved image: 15_check-6
+[*] download_html - START
+[*] download_html - FINISH
+[*] extract_images_and_html - FINISH
+이미지 검증 - 15_check-0.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 15_check-1.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 15_check-2.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 15_check-3.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 15_check-4.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 15_check-5.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 15_check-6.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - need_check.html
+[*] extract_domain - START
+[*] extract_domain - FINISH
+[*] get_page_title - START
+[*] get_page_title - START
+[*] extract_hangul - START
+[*] extract_hangul - FINISH
+[*] check_text - START
+[*] check_text - FINISH
+[*] whois.get - START
+[*] whois.get - FINISH
+[*] save_data - START
+[*] find_last_row - START
+[*] find_last_row - FINISH
+[*] save_data - FINISH
+URL 유해성 검증진행 : https://support.google.com/youtube/answer/2802245?hl=KO
+[*] checker - START
+[*] extract_images_and_html - START
+[*] find_chrome_executable_windows - START
+[*] find_chrome_executable_windows - FINISH
+[*] find_chrome_profile - START
+[*] find_chrome_profile - FINISH
+[*] Saved image: 16_check-0
+[*] download_html - START
+[*] download_html - FINISH
+[*] extract_images_and_html - FINISH
+이미지 검증 - 16_check-0.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - need_check.html
+[*] extract_domain - START
+[*] extract_domain - FINISH
+[*] get_page_title - START
+[*] get_page_title - START
+[*] extract_hangul - START
+[*] extract_hangul - FINISH
+[*] check_text - START
+[*] check_text - FINISH
+[*] whois.get - START
+[*] whois.get - FINISH
+[*] save_data - START
+[*] find_last_row - START
+[*] find_last_row - FINISH
+[*] save_data - FINISH
+URL 유해성 검증진행 : https://blog.naver.com/kka002486/223142905059
+[*] checker - START
+[*] extract_images_and_html - START
+[*] find_chrome_executable_windows - START
+[*] find_chrome_executable_windows - FINISH
+[*] find_chrome_profile - START
+[*] find_chrome_profile - FINISH
+[*] download_html - START
+[*] download_html - FINISH
+[*] extract_images_and_html - FINISH
+이미지 검증 - need_check.html
+[*] extract_domain - START
+[*] extract_domain - FINISH
+[*] get_page_title - START
+[*] get_page_title - START
+[*] extract_hangul - START
+[*] extract_hangul - FINISH
+[*] check_text - START
+[*] check_text - FINISH
+[*] whois.get - START
+[*] whois.get - FINISH
+[*] save_data - START
+[*] find_last_row - START
+[*] find_last_row - FINISH
+[*] save_data - FINISH
+URL 유해성 검증진행 : https://wonderfulmind.co.kr/why-do-people-harm-themselves/
+[*] checker - START
+[*] extract_images_and_html - START
+[*] find_chrome_executable_windows - START
+[*] find_chrome_executable_windows - FINISH
+[*] find_chrome_profile - START
+[*] find_chrome_profile - FINISH
+[!] extract_images_and_html - ERROR : https://cdn.atomik.vip/themes/lmem/ko/logo.svg HTTP Error 403: Forbidden
+[*] Saved image: 18_check-0
+[*] Saved image: 18_check-1
+[*] Saved image: 18_check-2
+[*] Saved image: 18_check-3
+[*] Saved image: 18_check-4
+[*] Saved image: 18_check-5
+[*] Saved image: 18_check-6
+[*] Saved image: 18_check-7
+[*] Saved image: 18_check-8
+[*] Saved image: 18_check-9
+[*] Saved image: 18_check-10
+[*] Saved image: 18_check-11
+[*] Saved image: 18_check-12
+[*] Saved image: 18_check-13
+[*] Saved image: 18_check-14
+[*] Saved image: 18_check-15
+[*] Saved image: 18_check-16
+[*] Saved image: 18_check-17
+[*] download_html - START
+[*] download_html - FINISH
+[*] extract_images_and_html - FINISH
+이미지 검증 - 18_check-0.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 18_check-1.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 18_check-10.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 18_check-11.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 18_check-12.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 18_check-13.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 18_check-14.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 18_check-15.jpg
+[*] detect_safe_search - START
+[!] detect_safe_search - ERROR : Bad image data.
+[!] checker - ERROR : Bad image data.
+For more info on error messages, check: https://cloud.google.com/apis/design/errors
+이미지 검증 - 18_check-16.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 18_check-17.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 18_check-2.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 18_check-3.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 18_check-4.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 18_check-5.jpg
+[*] detect_safe_search - START
+[!] detect_safe_search - ERROR : Bad image data.
+[!] checker - ERROR : Bad image data.
+For more info on error messages, check: https://cloud.google.com/apis/design/errors
+이미지 검증 - 18_check-6.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 18_check-7.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 18_check-8.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 18_check-9.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - need_check.html
+[*] extract_domain - START
+[*] extract_domain - FINISH
+[*] get_page_title - START
+[*] get_page_title - START
+[*] extract_hangul - START
+[*] extract_hangul - FINISH
+[*] check_text - START
+[*] check_text - FINISH
+[*] whois.get - START
+[*] whois.get - FINISH
+[*] save_data - START
+[*] find_last_row - START
+[*] find_last_row - FINISH
+[*] save_data - FINISH
+URL 유해성 검증진행 : https://www.hani.co.kr/arti/society/society_general/1092614.html
+[*] checker - START
+[*] extract_images_and_html - START
+[*] find_chrome_executable_windows - START
+[*] find_chrome_executable_windows - FINISH
+[*] find_chrome_profile - START
+[*] find_chrome_profile - FINISH
+[*] Saved image: 19_check-0
+[*] Saved image: 19_check-1
+[*] Saved image: 19_check-2
+[*] Saved image: 19_check-3
+[*] Saved image: 19_check-4
+[*] Saved image: 19_check-5
+[*] Saved image: 19_check-6
+[*] Saved image: 19_check-7
+[*] Saved image: 19_check-8
+[*] Saved image: 19_check-9
+[*] Saved image: 19_check-10
+[*] Saved image: 19_check-11
+[*] Saved image: 19_check-12
+[*] Saved image: 19_check-13
+[*] Saved image: 19_check-14
+[*] Saved image: 19_check-15
+[*] Saved image: 19_check-16
+[*] Saved image: 19_check-17
+[*] Saved image: 19_check-18
+[*] Saved image: 19_check-19
+[*] Saved image: 19_check-20
+[*] Saved image: 19_check-21
+[*] Saved image: 19_check-22
+[*] Saved image: 19_check-23
+[*] Saved image: 19_check-24
+[*] Saved image: 19_check-25
+[*] Saved image: 19_check-26
+[*] Saved image: 19_check-27
+[*] Saved image: 19_check-28
+[*] Saved image: 19_check-29
+[*] Saved image: 19_check-30
+[*] Saved image: 19_check-31
+[*] Saved image: 19_check-32
+[*] Saved image: 19_check-33
+[*] Saved image: 19_check-34
+[*] Saved image: 19_check-35
+[*] Saved image: 19_check-36
+[*] Saved image: 19_check-37
+[*] Saved image: 19_check-38
+[*] Saved image: 19_check-39
+[*] Saved image: 19_check-40
+[*] Saved image: 19_check-41
+[*] download_html - START
+[*] download_html - FINISH
+[*] extract_images_and_html - FINISH
+이미지 검증 - 19_check-0.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 19_check-1.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 19_check-10.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 19_check-11.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 19_check-12.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 19_check-13.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 19_check-14.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 19_check-15.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 19_check-16.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 19_check-17.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 19_check-18.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 19_check-19.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 19_check-2.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 19_check-20.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 19_check-21.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 19_check-22.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 19_check-23.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 19_check-24.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 19_check-25.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 19_check-26.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 19_check-27.jpg
+[*] detect_safe_search - START
+[!] checker - ERROR : 400 Request must specify image and features.
+이미지 검증 - 19_check-28.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 19_check-29.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 19_check-3.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 19_check-30.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 19_check-31.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 19_check-32.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 19_check-33.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 19_check-34.jpg
+[*] detect_safe_search - START
+[!] detect_safe_search - ERROR : Bad image data.
+[!] checker - ERROR : Bad image data.
+For more info on error messages, check: https://cloud.google.com/apis/design/errors
+이미지 검증 - 19_check-35.jpg
+[*] detect_safe_search - START
+[!] detect_safe_search - ERROR : Bad image data.
+[!] checker - ERROR : Bad image data.
+For more info on error messages, check: https://cloud.google.com/apis/design/errors
+이미지 검증 - 19_check-36.jpg
+[*] detect_safe_search - START
+[!] detect_safe_search - ERROR : Bad image data.
+[!] checker - ERROR : Bad image data.
+For more info on error messages, check: https://cloud.google.com/apis/design/errors
+이미지 검증 - 19_check-37.jpg
+[*] detect_safe_search - START
+[!] detect_safe_search - ERROR : Bad image data.
+[!] checker - ERROR : Bad image data.
+For more info on error messages, check: https://cloud.google.com/apis/design/errors
+이미지 검증 - 19_check-38.jpg
+[*] detect_safe_search - START
+[!] detect_safe_search - ERROR : Bad image data.
+[!] checker - ERROR : Bad image data.
+For more info on error messages, check: https://cloud.google.com/apis/design/errors
+이미지 검증 - 19_check-39.jpg
+[*] detect_safe_search - START
+[!] detect_safe_search - ERROR : Bad image data.
+[!] checker - ERROR : Bad image data.
+For more info on error messages, check: https://cloud.google.com/apis/design/errors
+이미지 검증 - 19_check-4.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 19_check-40.jpg
+[*] detect_safe_search - START
+[!] detect_safe_search - ERROR : Bad image data.
+[!] checker - ERROR : Bad image data.
+For more info on error messages, check: https://cloud.google.com/apis/design/errors
+이미지 검증 - 19_check-41.jpg
+[*] detect_safe_search - START
+[!] detect_safe_search - ERROR : Bad image data.
+[!] checker - ERROR : Bad image data.
+For more info on error messages, check: https://cloud.google.com/apis/design/errors
+이미지 검증 - 19_check-5.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 19_check-6.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 19_check-7.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 19_check-8.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 19_check-9.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - need_check.html
+[*] extract_domain - START
+[*] extract_domain - FINISH
+[*] get_page_title - START
+[*] get_page_title - START
+[*] extract_hangul - START
+[*] extract_hangul - FINISH
+[*] check_text - START
+[*] check_text - FINISH
+[*] whois.get - START
+[*] whois.get - FINISH
+[*] save_data - START
+[*] find_last_row - START
+[*] find_last_row - FINISH
+[*] save_data - FINISH
+[*] check_keywords - FINISH
+"POST /check_keywords/ HTTP/1.1" 200 389
+[*] check_keywords - START
+"GET /download_reports/ HTTP/1.1" 200 5883865
+[*] login_first - START
+"GET / HTTP/1.1" 200 3212
+[*] login_first - START
+"GET / HTTP/1.1" 200 3212
+"GET /static/image/MIS.jpg HTTP/1.1" 304 0
+[*] join - START
+"GET /join/ HTTP/1.1" 200 4159
+[*] check - START
+"POST /check/ HTTP/1.1" 302 0
+"GET /dashboard HTTP/1.1" 301 0
+"GET /dashboard/ HTTP/1.1" 200 2420
+"GET /static/setting/layout/styles/layout.css HTTP/1.1" 304 0
+[*] myinfo - START
+"GET /myinfo/ HTTP/1.1" 200 9245
+"GET /static/setting/images/demo/backgrounds/01.jpg; HTTP/1.1" 404 1878
+Forbidden (CSRF token from POST incorrect.): /check/
+"POST /check/ HTTP/1.1" 403 2518
+[*] login_first - START
+"GET / HTTP/1.1" 302 0
+"GET /dashboard HTTP/1.1" 301 0
+"GET /dashboard/ HTTP/1.1" 200 2420
+"GET /monitor/ HTTP/1.1" 200 11047
+"GET /static/setting/images/demo/backgrounds/01.jpg; HTTP/1.1" 404 1878
+"POST /check_urls/ HTTP/1.1" 302 0
+[*] login_first - START
+"GET /?next=/check_urls/ HTTP/1.1" 200 3212
+"GET /monitor/ HTTP/1.1" 302 0
+[*] login_first - START
+"GET /?next=/monitor/ HTTP/1.1" 200 3212
+[*] check - START
+"POST /check/ HTTP/1.1" 302 0
+[*] login_first - START
+"GET / HTTP/1.1" 200 3212
+[*] check - START
+"POST /check/ HTTP/1.1" 302 0
+"GET /dashboard HTTP/1.1" 301 0
+"GET /dashboard/ HTTP/1.1" 200 2420
+"GET /monitor/ HTTP/1.1" 200 11047
+"GET /static/setting/images/demo/backgrounds/01.jpg; HTTP/1.1" 404 1878
+[*] check_urls - START
+[*] validate_url - START
+[*] validate_url - FINISH
+[*] checker - START
+[*] extract_images_and_html - START
+[*] find_chrome_executable_windows - START
+[*] find_chrome_executable_windows - FINISH
+[*] find_chrome_profile - START
+[*] find_chrome_profile - FINISH
+[*] Saved image: 0_check-0
+[*] Saved image: 0_check-1
+[*] Saved image: 0_check-2
+[*] Saved image: 0_check-3
+[*] download_html - START
+[*] download_html - FINISH
+[*] extract_images_and_html - FINISH
+이미지 검증 - 0_check-0.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 0_check-1.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 0_check-2.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 0_check-3.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - need_check.html
+[*] extract_domain - START
+[*] extract_domain - FINISH
+[*] get_page_title - START
+[*] get_page_title - START
+[*] extract_hangul - START
+[*] extract_hangul - FINISH
+[*] check_text - START
+[*] check_text - FINISH
+[*] whois.get - START
+[*] whois.get - FINISH
+[*] save_data - START
+[*] find_last_row - START
+[*] find_last_row - FINISH
+[*] save_data - FINISH
+[*] check_urls - FINISH
+"POST /check_urls/ HTTP/1.1" 200 1660
+Watching for file changes with StatReloader
+[*] login_first - START
+"GET / HTTP/1.1" 200 3212
+[*] check - START
+"POST /check/ HTTP/1.1" 302 0
+"GET /dashboard HTTP/1.1" 301 0
+"GET /dashboard/ HTTP/1.1" 200 2420
+"GET /monitor/ HTTP/1.1" 200 11047
+"GET /static/setting/images/demo/backgrounds/01.jpg; HTTP/1.1" 404 1878
+[*] check_urls - START
+[*] validate_url - START
+[*] validate_url - FINISH
+[*] checker - START
+[*] extract_images_and_html - START
+[*] find_chrome_executable_windows - START
+[*] find_chrome_executable_windows - FINISH
+[*] find_chrome_profile - START
+[*] find_chrome_profile - FINISH
+[*] Saved image: 0_check-0
+[*] Saved image: 0_check-1
+[*] Saved image: 0_check-2
+[*] Saved image: 0_check-3
+[*] download_html - START
+[*] download_html - FINISH
+[*] extract_images_and_html - FINISH
+이미지 검증 - 0_check-0.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 0_check-1.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 0_check-2.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 0_check-3.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - need_check.html
+[*] extract_domain - START
+[*] extract_domain - FINISH
+[*] get_page_title - START
+[*] get_page_title - START
+[*] extract_hangul - START
+[*] extract_hangul - FINISH
+[*] check_text - START
+[*] check_text - FINISH
+[*] whois.get - START
+[*] whois.get - FINISH
+[*] save_data - START
+[*] find_last_row - START
+[*] find_last_row - FINISH
+[*] save_data - FINISH
+[*] check_urls - FINISH
+"POST /check_urls/ HTTP/1.1" 200 1660
+[*] check_keywords - START
+"GET /download_reports/ HTTP/1.1" 200 93911
+"GET /monitor/ HTTP/1.1" 200 11047
+"GET /static/setting/images/demo/backgrounds/01.jpg; HTTP/1.1" 404 1878
+[*] check_urls - START
+[*] validate_url - START
+[*] validate_url - FINISH
+[*] checker - START
+[*] extract_images_and_html - START
+[*] find_chrome_executable_windows - START
+[*] find_chrome_executable_windows - FINISH
+[*] find_chrome_profile - START
+[*] find_chrome_profile - FINISH
+[*] Saved image: 0_check-0
+[*] Saved image: 0_check-1
+[*] Saved image: 0_check-2
+[*] Saved image: 0_check-3
+[*] download_html - START
+[*] download_html - FINISH
+[*] extract_images_and_html - FINISH
+이미지 검증 - 0_check-0.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 0_check-1.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 0_check-2.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 0_check-3.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - need_check.html
+[*] extract_domain - START
+[*] extract_domain - FINISH
+[*] get_page_title - START
+[*] get_page_title - START
+[*] extract_hangul - START
+[*] extract_hangul - FINISH
+[*] check_text - START
+[*] check_text - FINISH
+[*] whois.get - START
+[*] whois.get - FINISH
+[*] save_data - START
+[*] find_last_row - START
+[*] find_last_row - FINISH
+[*] save_data - FINISH
+[*] check_urls - FINISH
+"POST /check_urls/ HTTP/1.1" 200 1822
+"GET /monitor/ HTTP/1.1" 200 11047
+"GET /static/setting/images/demo/backgrounds/01.jpg; HTTP/1.1" 404 1878
+[*] check_urls - START
+[*] validate_url - START
+[*] validate_url - FINISH
+[*] checker - START
+[*] extract_images_and_html - START
+[*] find_chrome_executable_windows - START
+[*] find_chrome_executable_windows - FINISH
+[*] find_chrome_profile - START
+[*] find_chrome_profile - FINISH
+[*] Saved image: 0_check-0
+[*] Saved image: 0_check-1
+[*] Saved image: 0_check-2
+[*] Saved image: 0_check-3
+[*] download_html - START
+[*] download_html - FINISH
+[*] extract_images_and_html - FINISH
+이미지 검증 - 0_check-0.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 0_check-1.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 0_check-2.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - 0_check-3.jpg
+[*] detect_safe_search - START
+[*] detect_safe_search - FINISH
+이미지 검증 - need_check.html
+[*] extract_domain - START
+[*] extract_domain - FINISH
+[*] get_page_title - START
+[*] get_page_title - START
+[*] extract_hangul - START
+[*] extract_hangul - FINISH
+[*] check_text - START
+[*] check_text - FINISH
+[*] whois.get - START
+[*] whois.get - FINISH
+[*] save_data - START
+[*] find_last_row - START
+[*] find_last_row - FINISH
+[*] save_data - FINISH
+[*] check_urls - FINISH
+"POST /check_urls/ HTTP/1.1" 200 1828
+Watching for file changes with StatReloader
+[*] login_first - START
+"GET / HTTP/1.1" 200 3212
+"GET /static/image/MIS.jpg HTTP/1.1" 304 0
+"GET /static/image/kisa.png HTTP/1.1" 304 0
+"GET /static/image/kisa.png HTTP/1.1" 200 31149
+"GET /static/image/MIS.jpg HTTP/1.1" 200 262565
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3348
+[*] check - START
+"POST /check/ HTTP/1.1" 302 0
+"GET /dashboard HTTP/1.1" 301 0
+"GET /dashboard/ HTTP/1.1" 200 2420
+"GET /static/setting/layout/styles/layout.css HTTP/1.1" 304 0
+"GET /static/setting/layout/styles/layout.css HTTP/1.1" 200 20073
+"GET /static/setting/layout/styles/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 14952
+"GET /static/setting/images/demo/backgrounds/01.jpg HTTP/1.1" 304 0
+"GET /static/setting/images/demo/backgrounds/01.jpg HTTP/1.1" 200 14413362
+"GET /monitor HTTP/1.1" 301 0
+"GET /monitor/ HTTP/1.1" 200 11047
+"GET /static/setting/layout/scripts/jquery.backtotop.js HTTP/1.1" 200 640
+"GET /static/setting/layout/scripts/jquery.mobilemenu.js HTTP/1.1" 200 1322
+"GET /static/setting/images/demo/backgrounds/01.jpg; HTTP/1.1" 404 1878
+"GET /static/setting/layout/scripts/jquery.min.js HTTP/1.1" 200 86927
+[*] check_urls - START
+[*] validate_url - START
+[*] validate_url - FINISH
+[*] checker - START
+[*] extract_images_and_html - START
+[*] find_chrome_executable_windows - START
+[*] find_chrome_executable_windows - FINISH
+[*] find_chrome_profile - START
+[*] find_chrome_profile - FINISH
+[!] extract_images_and_html - ERROR :  unknown url type: ''
+[*] Saved image: 0_check-0
+[!] extract_images_and_html - ERROR : None expected string or bytes-like object
+[!] extract_images_and_html - ERROR : None expected string or bytes-like object
+[!] extract_images_and_html - ERROR : None expected string or bytes-like object
+[!] extract_images_and_html - ERROR : None expected string or bytes-like object
+[!] extract_images_and_html - ERROR : None expected string or bytes-like object
+[!] extract_images_and_html - ERROR : None expected string or bytes-like object
+[!] extract_images_and_html - ERROR : None expected string or bytes-like object
+[!] extract_images_and_html - ERROR : None expected string or bytes-like object
+[!] extract_images_and_html - ERROR : None expected string or bytes-like object
+[!] extract_images_and_html - ERROR : None expected string or bytes-like object
+[!] extract_images_and_html - ERROR : None expected string or bytes-like object
+[!] extract_images_and_html - ERROR : None expected string or bytes-like object
+[!] extract_images_and_html - ERROR : None expected string or bytes-like object
+[!] extract_images_and_html - ERROR : None expected string or bytes-like object
+[!] extract_images_and_html - ERROR : None expected string or bytes-like object
+[!] extract_images_and_html - ERROR : None expected string or bytes-like object
+[!] extract_images_and_html - ERROR : None expected string or bytes-like object
+[*] download_html - START
+[*] download_html - FINISH
+[*] extract_images_and_html - FINISH
+이미지 검증 - 0_check-0.jpg
+[*] detect_safe_search - START
+[!] detect_safe_search - ERROR : Bad image data.
+[!] checker - ERROR : Bad image data.
+For more info on error messages, check: https://cloud.google.com/apis/design/errors
+이미지 검증 - need_check.html
+[*] extract_domain - START
+[*] extract_domain - FINISH
+[*] get_page_title - START
+[*] get_page_title - START
+[*] extract_hangul - START
+[*] extract_hangul - FINISH
+[*] check_text - START
+[*] check_text - FINISH
+[*] whois.get - START
+[*] whois.get - FINISH
+[*] save_data - START
+[*] find_last_row - START
+[*] find_last_row - FINISH
+[*] save_data - FINISH
+[*] check_urls - FINISH
+"POST /check_urls/ HTTP/1.1" 200 2240
+[*] check_keywords - START
+"GET /download_reports/ HTTP/1.1" 200 7540
+"GET /monitor/ HTTP/1.1" 200 11048
+"GET /dashboard/ HTTP/1.1" 200 2420
+"GET /myinfo HTTP/1.1" 301 0
+[*] myinfo - START
+"GET /myinfo/ HTTP/1.1" 200 9245
+"GET /dashboard/ HTTP/1.1" 200 2420
+"GET /monitor/ HTTP/1.1" 200 11048
+"GET /dashboard/ HTTP/1.1" 200 2420
+[*] login_first - START
+"GET / HTTP/1.1" 200 3212
+"GET /static/style.css HTTP/1.1" 200 6790
+"GET /static/image/eagle.png HTTP/1.1" 200 140739
+"GET /static/image/MIS.jpg HTTP/1.1" 200 262565
+"GET /static/image/kisa.png HTTP/1.1" 200 31149
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3348
+[*] check - START
+"POST /check/ HTTP/1.1" 302 0
+"GET /dashboard HTTP/1.1" 301 0
+"GET /dashboard/ HTTP/1.1" 200 2420
+"GET /static/setting/layout/styles/layout.css HTTP/1.1" 200 20073
+"GET /static/setting/layout/styles/framework.css HTTP/1.1" 200 5702
+"GET /static/setting/layout/styles/fontawesome-free/css/all.css HTTP/1.1" 200 45687
+"GET /static/setting/layout/styles/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 14952
+"GET /static/setting/layout/styles/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 59572
+"GET /static/setting/images/demo/backgrounds/01.jpg HTTP/1.1" 200 14413362
+"GET /myinfo HTTP/1.1" 301 0
+[*] myinfo - START
+"GET /myinfo/ HTTP/1.1" 200 9245
+"GET /static/setting/layout/scripts/jquery.backtotop.js HTTP/1.1" 200 640
+"GET /static/setting/layout/scripts/jquery.mobilemenu.js HTTP/1.1" 200 1322
+"GET /static/setting/layout/scripts/jquery.min.js HTTP/1.1" 200 86927
+"GET /monitor HTTP/1.1" 301 0
+"GET /monitor/ HTTP/1.1" 200 11048
