@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+{% load static %}
+<!--
+Template Name: Nekmit
+Author: <a href="https://www.os-templates.com/">OS Templates</a>
+Author URI: https://www.os-templates.com/
+Copyright: OS-Templates.com
+Licence: Free to use under our free template licence terms
+Licence URI: https://www.os-templates.com/template-terms
+-->
+<html lang="kor">
+<!-- To declare your language - read more here: https://www.w3.org/International/questions/qa-html-language-declarations -->
+<head>
+<title>단속진행</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="{% static 'setting/layout/styles/layout.css' %}" rel="stylesheet" type="text/css" media="all">
+</head>
+
+<style>
+#loadingScreen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+#loadingSpinner {
+  border: 4px solid rgba(255, 255, 255, 0.3);
+  border-top: 4px solid #fff;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+</style>
+
+<body id="top">
+<!-- Loading screen -->
+<div id="loadingScreen" style="display: none;">
+  <div id="loadingSpinner"></div>
+</div>
+
+
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- Top Background Image Wrapper -->
+<div class="bgded overlay padtop" style="background-image:url({% static 'setting/images/demo/backgrounds/01.jpg' %});"> 
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+	<header id="header" class="hoc clear">
+		<div id="logo" class="fl_left"> 
+		  <!-- ################################################################################################ -->
+		  <h1><a href="../dashboard">Illegial Contents Monitoring</a></h1>
+		  <!-- ################################################################################################ -->
+		</div>
+		<nav id="mainav" class="fl_right"> 
+		  <!-- ################################################################################################ -->
+		  <ul class="clear">
+			<li><a href="../dashboard/">Home</a></li>
+			
+		  </ul>
+		  <!-- ################################################################################################ -->
+		</nav>
+	</header>
+
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <div id="breadcrumb" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+    <!-- ################################################################################################ -->
+  </div>
+  <!-- ################################################################################################ -->
+</div>
+<!-- End Top Background Image Wrapper -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row3">
+	<main class="hoc container clear"> 
+		<!-- main body -->
+		<!-- ################################################################################################ -->
+		<div class="content"> 
+		  <!-- ################################################################################################ -->
+		  <h1>Searching illegal suicide contents</h1>
+		  </br><h2>Single URL check</h2>
+		  <p>자살 관련 불법 콘텐츠나 유해정보 여부를 확인하고 싶으시면 아래에 URL 정보를 넣고 제출 버튼을 눌러주세요.</p>
+			<div id="comments">
+				<form id="check_url" action="/check_urls/" method="post">
+					{% csrf_token %}
+					<div class="block clear">
+						<label for="comment">URL 주소 입력</label>
+						<textarea name="URL" id="URL" cols="25" rows="1"></textarea>
+					</div>
+					<div>
+						<input id="submitUrl" type="submit" value="Submit Form"></input>
+					</div>
+				</form>
+				<div id="resultContainer1"></div>	
+			</div>
+      <!-- ################################################################################################ -->
+    </div>
+	  
+	<div class="content"> 
+      <!-- ################################################################################################ -->
+	  </br><h2>Check multi-word based content</h2>
+	  <p>유해 콘텐츠 정보 단속을 위한 검색 키워드를 입력해주세요. 해당 키워드를 기반으로 검색엔진 결과를 파싱하여 보고서를 확인할 수 있습니다.</br>
+		 현재 API 서비스 정책으로 일일 요청 키워드는 10개로 제한됩니다. 아래와 같은 형식으로 키워드를 입력해 주시면 됩니다.</br>
+		 추가적으로 해당 검색어 기반 추적의 경우 구글 고급 검색식을 활용할 수 있습니다.(반드시 구분자 세미콜론(;) 사용해 주세요!!!)
+		 ex) Suicide;drug sales;자살 site:t.me;asdf;...</p>
+		<div id="comments">
+			<form action="/check_keywords/" id="check_keywords" method="post">
+			{% csrf_token %}
+			  <div class="block clear">
+				<label for="comment">검색 키워드 입력</label>
+				<textarea name="keywords" id="keywords" cols="25" rows="3"></textarea>
+			  </div>
+			  <div>
+				<input id="submitGoogle" type="submit" name="submit" value="google">
+				</br></br>
+				<input id="submitNaver" type="submit" name="submit" value="naver">
+			  </div>
+			</form>
+			<div id="resultContainer2"></div>	
+		</div>
+      <!-- ################################################################################################ -->
+    </div>
+    <!-- ################################################################################################ -->
+    <!-- / main body -->
+    <div class="clear"></div>
+  </main>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row5">
+  <div id="copyright" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+    <p class="fl_left">Copyright &copy; 2018 - All Rights Reserved - <a href="#">Domain Name</a></p>
+    <p class="fl_right">Template by <a target="_blank" href="https://www.os-templates.com/" title="Free Website Templates">OS Templates</a></p>
+    <!-- ################################################################################################ -->
+  </div>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<a id="backtotop" href="#top"><i class="fas fa-chevron-up"></i></a>
+<!-- JAVASCRIPTS -->
+
+<script src="{% static 'setting/layout/scripts/jquery.min.js' %}"></script>
+<script src="{% static 'setting/layout/scripts/jquery.backtotop.js' %}"></script>
+<script src="{% static 'setting/layout/scripts/jquery.mobilemenu.js' %}"></script>
+<script>
+
+function showLoadingScreen() {
+  document.getElementById("loadingScreen").style.display = "flex";
+}
+
+function hideLoadingScreen() {
+  document.getElementById("loadingScreen").style.display = "none";
+}
+
+  function sendAjaxRequest(event, index) {
+	event.preventDefault();
+	  showLoadingScreen();
+
+	  const serverLink = ["/check_urls/", "/check_keywords/"];
+	  const element_input = ["check_url", "check_keywords"];
+	  const reports_place = ["resultContainer1", "resultContainer2"];
+	  resultContainer2
+	  var button = event.target;
+	  button.style.display = "none";  // 버튼을 숨기는 CSS 스타일 적용
+
+	  // FormData 객체를 사용하여 폼 데이터 생성
+	  var formData = new FormData(document.getElementById(element_input[index]));
+	  formData.append('submit', button.value);
+	  // 서버로 Ajax 요청 보내기
+	  fetch(serverLink[index], {
+		method: 'POST',
+		body: formData
+	  })
+		.then(function(response) {
+		  if (response.ok) {
+			hideLoadingScreen();	
+			return response.text();  // HTML 응답을 텍스트 형식으로 받음
+		  } else {
+			hideLoadingScreen();
+			throw new Error('Request failed');
+		  }
+		})
+		.then(function(html) {
+		  // 서버 응답을 받은 후 버튼 다시 표시
+		  button.style.display = "inline";  // 버튼을 다시 보이도록 설정
+		  // 결과 컨테이너에 응답 결과를 삽입하지 않음
+		  var resultContainer = document.getElementById(reports_place[index]);
+		  resultContainer.innerHTML = html;
+
+		  // 추가로 처리할 작업 수행
+		})
+		.catch(function(error) {
+		  console.log('Request failed: ' + error);
+		});
+	}
+
+document.getElementById("submitUrl").addEventListener("click", function(event) {
+  sendAjaxRequest(event, 0);
+});
+
+document.getElementById("submitGoogle").addEventListener("click", function(event) {
+  sendAjaxRequest(event, 1);
+});
+
+document.getElementById("submitNaver").addEventListener("click", function(event) {
+  sendAjaxRequest(event, 1);
+});
+
+</script>
+
+
+</body>
+</html>

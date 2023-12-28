@@ -1,0 +1,59 @@
+Watching for file changes with StatReloader
+[*] login_first - START
+"GET / HTTP/1.1" 200 3212
+"GET /static/image/MIS.jpg HTTP/1.1" 200 262565
+"GET /static/image/eagle.png HTTP/1.1" 200 140739
+"GET /static/style.css HTTP/1.1" 200 6790
+"GET /static/image/kisa.png HTTP/1.1" 200 31149
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3668
+[*] check - START
+"POST /check/ HTTP/1.1" 302 0
+[*] login_first - START
+"GET / HTTP/1.1" 200 3212
+[*] check - START
+"POST /check/ HTTP/1.1" 302 0
+[*] login_first - START
+"GET / HTTP/1.1" 200 3212
+"GET /join HTTP/1.1" 301 0
+[*] join - START
+"GET /join/ HTTP/1.1" 200 4159
+[*] check - START
+[*] check - 이미 사용 중인 아이디입니다.
+"POST /check/ HTTP/1.1" 200 4157
+[*] check - START
+Too Many Requests: /check/
+"POST /check/ HTTP/1.1" 429 64
+[*] check - START
+Too Many Requests: /check/
+"POST /check/ HTTP/1.1" 429 64
+Forbidden (CSRF cookie not set.): /check/
+"POST /check/ HTTP/1.1" 403 2870
+Forbidden (CSRF cookie not set.): /check/
+"POST /check/ HTTP/1.1" 403 2870
+Forbidden (CSRF cookie not set.): /check/
+"POST /check/ HTTP/1.1" 403 2870
+[*] login_first - START
+"GET / HTTP/1.1" 200 3212
+[*] check - START
+Too Many Requests: /check/
+"POST /check/ HTTP/1.1" 429 64
+D:\자료\개인 포트폴리오\프로그램 개발\소개딩\Guardiuns of hope\소개딩_자료\제작 파일\ICMS\main\main\settings.py changed, reloading.
+Watching for file changes with StatReloader
+[*] check - START
+Too Many Requests: /check/
+"POST /check/ HTTP/1.1" 429 81
+[*] check - START
+Too Many Requests: /check/
+"POST /check/ HTTP/1.1" 429 81
+[*] check - START
+Too Many Requests: /check/
+"POST /check/ HTTP/1.1" 429 81
+[*] check - START
+Too Many Requests: /check/
+"POST /check/ HTTP/1.1" 429 81
+[*] check - START
+Too Many Requests: /check/
+"POST /check/ HTTP/1.1" 429 81
+[*] login_first - START
+"GET / HTTP/1.1" 200 3212

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+	<head>
+		<title>대시보드</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<link href="{% static 'setting/layout/styles/layout.css' %}" rel="stylesheet" type="text/css" media="all">
+	</head>
+
+	<body id="top">
+		<div class="bgded overlay padtop" style="background-image:url({% static 'setting/images/demo/backgrounds/01.jpg' %});"> 
+	  
+		<header id="header" class="hoc clear">
+			<div id="logo" class="fl_left"> 
+			  <h1>Illegial Contents Monitoring</h1>
+			</div>
+			
+			<nav id="mainav" class="fl_right"> 
+				<ul class="clear">
+					<li class="active"><a href="/dashboard">Home</a></li>
+					{% if request.user.is_superuser == False %}
+					<li class="active"><a href="/write">관리자 문의</a></li>
+					{% endif %}
+					<li class="active"><a href="/logout">Logout</a></li>
+					{% if request.user.is_superuser == True %}
+					<li class="active"><a href="/qna">문의 사항 보기</a></li>
+					<li class="active"><a href="/admin">관리자 페이지</a></li>
+					{% endif %}
+					
+
+			  </ul>
+			</nav>
+		  </header>
+		 
+		 
+			<div id="pageintro" class="hoc clear"> 
+				<article>
+					<h3 class="heading" >IC Monitoring System</h3>
+					<p>불법 자살유해콘텐츠 단속지원 시스템에 오신것을 환영합니다.
+					<br>안심하고 사용할 수 있는 사이버 환경이 구축되는 그 날까지 최선을 다하는 여러분들을 응원합니다!</p>
+					  
+					<footer>
+						<ul class="nospace inline pushright">
+							<li><a class="btn" href="/myinfo">my 정보</a></li>
+							<li><a class="btn inverse" href="/monitor">자살유해콘탠츠 단속 진행 </a></li>
+						</ul>
+					</footer>
+				</article>
+			</div>
+		</div>
+		
+		<div class="wrapper row1">
+			<section id="ctdetails" class="hoc clear"> 
+				<ul class="nospace clear">
+					<li class="one_quarter first">
+						<div class="block clear"><i class="fas fa-phone"></i> 
+						<span><strong> 관리자 번호:</strong> +82 (010)-123-4567</span></div>
+					</li>
+					
+					<li class="one_quarter">
+						<div class="block clear"><i class="fas fa-envelope"></i> 
+						<span><strong> 문의 메일:</strong> kimseongwoo61@gmail.com</span></div>
+					</li>
+					
+					<li class="one_quarter">
+						<div class="block clear"><i class="fas fa-clock"></i> 
+						<span><strong> 운영시간:</strong> 08.00am - 18.00pm</span></div>
+					</li>
+					
+					<li class="one_quarter">
+						<div class="block clear"><i class="fas fa-map-marker-alt"></i> 
+						<span><strong> 행정안전부:</strong> URL <a href="https://www.mois.go.kr/frt/a01/frtMain.do">our location</a></span></div>
+					</li>
+				</ul>
+			</section>
+		</div>
+	</body>
+	
+</html>
