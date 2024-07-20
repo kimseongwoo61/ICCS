@@ -1,9 +1,4 @@
 # **Illegal Content Monitoring System**
-
-<p align="center">
-  <img src="https://github.com/kimseongwoo61/ICCS/blob/main/iccs.png" alt="Screenshot">
-</p>
-
 ## **Introduction**
 
 > The Illegal Content Monitoring Support System is a support system that identifies and takes proactive measures against suicide-related harmful and provocative information in real-time. It complements the ongoing government initiative of 'Public Participation in Suicide Harmful Information Monitoring' and efficiently performs the task of monitoring illegal content using machine learning and artificial intelligence technologies.
